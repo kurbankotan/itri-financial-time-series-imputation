@@ -1,0 +1,30 @@
+{
+  "selected_configuration": {
+    "window": 1,
+    "passes": 5,
+    "mean_validation_nrmse": 0.46493421924612516
+  },
+  "published_test_means": {
+    "selected_w1_p5": {
+      "nrmse": 0.1980937533705728,
+      "mae": 0.36209684213444254,
+      "rmse": 0.6092155314776012
+    },
+    "inherited_w3_p3": {
+      "nrmse": 0.2226440362509923,
+      "mae": 0.3835957241734127,
+      "rmse": 0.6614832888128788
+    },
+    "interpolation_only": {
+      "nrmse": 0.23241316933234787,
+      "mae": 0.4014981708787709,
+      "rmse": 0.7017974152323113
+    }
+  },
+  "expected_rows": {
+    "validation_grid": 3024,
+    "test_grid": 3024,
+    "interpolation_baseline_test": 108,
+    "conditions_per_configuration": 108
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "provider": "Yahoo Finance via yfinance",
+  "raw_files_redistributed": false,
+  "period": {
+    "start_inclusive": "2015-01-01",
+    "end_exclusive": "2026-01-01"
+  },
+  "markets": {
+    "BIST30": {
+      "ticker": "XU030.IS",
+      "downloaded_rows": 2744,
+      "complete_feature_rows_after_warmup": 2725,
+      "study_file_sha256": "1dc840d48f440b6138187a5835b5b713d0288254364a304c5047e4a5f292a642"
+    },
+    "SP500": {
+      "ticker": "^GSPC",
+      "downloaded_rows": 2766,
+      "complete_feature_rows_after_warmup": 2747,
+      "study_file_sha256": "28b34e5363852b718c6ae61db56d981de26673e5d36c6a8b3415e8fe6e688c4b"
+    }
+  },
+  "note": "Yahoo Finance may revise historical records. The hashes identify the exact downloads used for the reported experiment without redistributing the provider files."
+}
+

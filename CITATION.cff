@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software or its published results, please cite the associated article and this repository."
+title: "Iterative Temporal Regression Imputation for Financial Time Series"
+type: software
+authors:
+  - family-names: "KOTAN"
+    given-names: "Kurban"
+    orcid: "https://orcid.org/0000-0002-6660-0565"
+repository-code: "https://github.com/kurbankotan/itri-financial-time-series-imputation"
+url: "https://github.com/kurbankotan/itri-financial-time-series-imputation"
+version: "1.0.0"
+date-released: "2026-09-22"

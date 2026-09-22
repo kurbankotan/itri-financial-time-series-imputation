@@ -1,0 +1,21 @@
+{
+  "window": 1,
+  "passes": 5,
+  "selection_metric": "mean validation NRMSE",
+  "mean_validation_nrmse": 0.46493421924612516,
+  "candidate_windows": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    10
+  ],
+  "candidate_passes": [
+    1,
+    2,
+    3,
+    5
+  ]
+}
