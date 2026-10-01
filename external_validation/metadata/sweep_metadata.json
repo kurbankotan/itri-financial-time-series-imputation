@@ -1,0 +1,22 @@
+{
+  "label": "EXPLORATORY sensitivity sweep, not the prespecified primary result",
+  "windows": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    10
+  ],
+  "passes": [
+    1,
+    2,
+    3,
+    5
+  ],
+  "manifest_sha256": "37ed5c7becd54665c108ecf296bca1a0dd94ffc0a20788a3b9dd42679eb70d64",
+  "private_zip_sha256": "48dc63654f63db3ef9d6d5db7ab69ad502aa079e9f6deb4b276cf9b1170f324b",
+  "test_rows": 771120,
+  "validation_rows": 771120
+}

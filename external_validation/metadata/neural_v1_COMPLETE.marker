@@ -1,0 +1,7 @@
+{
+  "expected_shards": 5508,
+  "expected_rows": 55080,
+  "expected_validation_rows": 192780,
+  "pilot_not_publishable": false,
+  "run_fingerprint": "e46236273b268822db0ee75088f22d4ebe74ac97f4cdc909d7602f955684e88e"
+}

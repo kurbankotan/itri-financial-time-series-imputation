@@ -1,0 +1,92 @@
+{
+  "run_fingerprint": "10b251d0c2cdf95223256a075ec5ef94f2f85419208b270f430c53ce04e53546",
+  "protocol": "external-universe-v1",
+  "manifest_sha256": "37ed5c7becd54665c108ecf296bca1a0dd94ffc0a20788a3b9dd42679eb70d64",
+  "private_zip_sha256": "48dc63654f63db3ef9d6d5db7ab69ad502aa079e9f6deb4b276cf9b1170f324b",
+  "pilot_not_publishable": false,
+  "methods": [
+    "linear",
+    "pchip",
+    "knn5",
+    "chained_ridge",
+    "itri_w1_p5"
+  ],
+  "folds": {
+    "A": {
+      "train": [
+        2015,
+        2018
+      ],
+      "val": [
+        2019,
+        2019
+      ],
+      "test": [
+        2020,
+        2021
+      ]
+    },
+    "B": {
+      "train": [
+        2015,
+        2020
+      ],
+      "val": [
+        2021,
+        2021
+      ],
+      "test": [
+        2022,
+        2023
+      ]
+    },
+    "C": {
+      "train": [
+        2015,
+        2022
+      ],
+      "val": [
+        2023,
+        2023
+      ],
+      "test": [
+        2024,
+        2025
+      ]
+    }
+  },
+  "blocks": [
+    1,
+    2,
+    3,
+    5,
+    10,
+    20
+  ],
+  "rates": [
+    0.1,
+    0.2,
+    0.3
+  ],
+  "seeds": [
+    11,
+    23,
+    37
+  ],
+  "edge_guard": 20,
+  "primary_panel": [
+    "open",
+    "high",
+    "low",
+    "close",
+    "volume"
+  ],
+  "primary_endpoint": "macro mean across 5 feature-wise RMSE/training-observed-SD",
+  "versions": {
+    "python": "3.13.15",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "scipy": "1.18.1",
+    "sklearn": "1.6.1"
+  }
+}

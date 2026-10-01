@@ -3,6 +3,16 @@
 .venv/
 __pycache__/
 *.py[cod]
+*.log
 reproduction_run/
 itri_window_ablation_results.zip
 
+# raw vendor data are never committed
+private/
+work/
+data/
+*PRIVATE*.zip
+*snapshot*.zip
+
+# manuscript drafts stay outside the public repository
+*.docx

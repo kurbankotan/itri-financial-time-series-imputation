@@ -1,0 +1,14 @@
+{
+  "test_interpolation_reconstruction_max_abs_difference": {
+    "mae": 5.551115123125783e-17,
+    "rmse": 1.1102230246251565e-16,
+    "nrmse": 9.71445146547012e-17
+  },
+  "test_interpolation_reconstruction_matches_archive": true,
+  "mask_construction_matches_archived_condition_metrics": true,
+  "same_underlying_series_reused_across_conditions": true,
+  "markets": 2,
+  "constructed_conditions_per_configuration": 108,
+  "market_by_block_descriptive_strata": 12,
+  "note": "Condition-level Wilcoxon, Friedman and ordinary bootstrap calculations in the original manuscript do not establish population-level significance because repeated masks and factor settings reuse the same two time series."
+}

@@ -1,0 +1,24 @@
+{
+  "original_source": "scripts/run_full_experiment.py",
+  "data_sha256": {
+    "BIST30": "1dc840d48f440b6138187a5835b5b713d0288254364a304c5047e4a5f292a642",
+    "SP500": "28b34e5363852b718c6ae61db56d981de26673e5d36c6a8b3415e8fe6e688c4b"
+  },
+  "audited_metric_rows": 6048,
+  "audited_condition_masks": 216,
+  "comparator_train_and_evaluation_masks_checked": 432,
+  "max_absolute_difference": {
+    "mae": 5.400124791776761e-13,
+    "rmse": 1.8189894035458565e-12,
+    "nrmse": 9.947598300641403e-13,
+    "last_update_delta": 6.963318810448982e-13,
+    "masked_cells": 0.0
+  },
+  "mismatches_first_20": [],
+  "all_rows_match_within_tolerance": true,
+  "excluded_columns": [
+    "fit_seconds",
+    "transform_seconds"
+  ],
+  "tolerance": "1e-8 for numerical error/update metrics; exact masked-cell count"
+}

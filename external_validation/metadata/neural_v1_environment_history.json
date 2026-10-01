@@ -1,0 +1,104 @@
+[
+  {
+    "started_utc": "2026-09-25T12:20:36Z",
+    "versions": {
+      "python": "3.13.15",
+      "numpy": "2.1.3",
+      "pandas": "2.2.3",
+      "scipy": "1.18.1",
+      "sklearn": "1.6.1",
+      "torch": "2.11.0+cu128",
+      "pypots": "1.5",
+      "pygrinder": "0.7",
+      "torch_cuda": "12.8",
+      "cudnn": 91900
+    },
+    "hardware": {
+      "device": "cuda",
+      "gpu_name": "NVIDIA A100-SXM4-40GB"
+    },
+    "run_fingerprint": "e46236273b268822db0ee75088f22d4ebe74ac97f4cdc909d7602f955684e88e",
+    "checkpoint_migration": {
+      "migrated": 3100,
+      "dropped": 0,
+      "superseded_fingerprints": [
+        "ec9f5387d8e458c43a0ceb5279e3f3d4bef14d4039e00c97b5c670485677ec28"
+      ]
+    }
+  },
+  {
+    "started_utc": "2026-09-25T15:37:38Z",
+    "versions": {
+      "python": "3.13.15",
+      "numpy": "2.1.3",
+      "pandas": "2.2.3",
+      "scipy": "1.18.1",
+      "sklearn": "1.6.1",
+      "torch": "2.11.0+cu128",
+      "pypots": "1.5",
+      "pygrinder": "0.7",
+      "torch_cuda": "12.8",
+      "cudnn": 91900
+    },
+    "hardware": {
+      "device": "cuda",
+      "gpu_name": "NVIDIA A100-SXM4-40GB"
+    },
+    "run_fingerprint": "e46236273b268822db0ee75088f22d4ebe74ac97f4cdc909d7602f955684e88e",
+    "checkpoint_migration": {
+      "migrated": 0,
+      "dropped": 0,
+      "superseded_fingerprints": []
+    }
+  },
+  {
+    "started_utc": "2026-09-25T20:47:24Z",
+    "versions": {
+      "python": "3.13.15",
+      "numpy": "2.1.3",
+      "pandas": "2.2.3",
+      "scipy": "1.18.1",
+      "sklearn": "1.6.1",
+      "torch": "2.11.0+cu128",
+      "pypots": "1.5",
+      "pygrinder": "0.7",
+      "torch_cuda": "12.8",
+      "cudnn": 91900
+    },
+    "hardware": {
+      "device": "cuda",
+      "gpu_name": "NVIDIA A100-SXM4-40GB"
+    },
+    "run_fingerprint": "e46236273b268822db0ee75088f22d4ebe74ac97f4cdc909d7602f955684e88e",
+    "checkpoint_migration": {
+      "migrated": 0,
+      "dropped": 0,
+      "superseded_fingerprints": []
+    }
+  },
+  {
+    "started_utc": "2026-09-26T20:55:37Z",
+    "versions": {
+      "python": "3.13.15",
+      "numpy": "2.1.3",
+      "pandas": "2.2.3",
+      "scipy": "1.18.1",
+      "sklearn": "1.6.1",
+      "torch": "2.11.0+cu128",
+      "pypots": "1.5",
+      "pygrinder": "0.7",
+      "torch_cuda": "12.8",
+      "cudnn": 91900
+    },
+    "hardware": {
+      "device": "cuda",
+      "gpu_name": "NVIDIA A100-SXM4-40GB"
+    },
+    "run_fingerprint": "e46236273b268822db0ee75088f22d4ebe74ac97f4cdc909d7602f955684e88e",
+    "checkpoint_migration": {
+      "migrated": 0,
+      "dropped": 0,
+      "superseded_fingerprints": []
+    }
+  }
+]

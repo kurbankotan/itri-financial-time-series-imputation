@@ -1,0 +1,29 @@
+region,method,mean_asset_nrmse,asset_count
+Americas,brits,1.116981228685475,4
+Americas,chained_ridge,0.36084442908658337,4
+Americas,itri_w1_p5,0.2958120802719203,4
+Americas,knn5,1.5341354332750032,4
+Americas,linear,0.29676777608885274,4
+Americas,pchip,0.30622212987495856,4
+Americas,saits,1.0861820957558963,4
+Asia-Pacific,brits,0.9888335551846803,13
+Asia-Pacific,chained_ridge,0.32189313721618046,13
+Asia-Pacific,itri_w1_p5,0.26967895134588865,13
+Asia-Pacific,knn5,1.2721405875595069,13
+Asia-Pacific,linear,0.26474393809241825,13
+Asia-Pacific,pchip,0.2737410044277615,13
+Asia-Pacific,saits,0.92888523057777617,13
+Europe,brits,1.3669463427790491,15
+Europe,chained_ridge,0.33608166847336796,15
+Europe,itri_w1_p5,0.26433122598837311,15
+Europe,knn5,1.8853264003582557,15
+Europe,linear,0.26514130887481796,15
+Europe,pchip,0.27224290214944274,15
+Europe,saits,1.3291341786472193,15
+Middle East and Africa,brits,1.40227263554878,2
+Middle East and Africa,chained_ridge,0.3263048469176188,2
+Middle East and Africa,itri_w1_p5,0.30249771887599131,2
+Middle East and Africa,knn5,1.7465731645135576,2
+Middle East and Africa,linear,0.29315355829070244,2
+Middle East and Africa,pchip,0.30143217111050424,2
+Middle East and Africa,saits,1.3027396312303194,2

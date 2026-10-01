@@ -1,0 +1,34 @@
+{
+  "raw_data_sha256": {
+    "BIST30": "1dc840d48f440b6138187a5835b5b713d0288254364a304c5047e4a5f292a642",
+    "SP500": "28b34e5363852b718c6ae61db56d981de26673e5d36c6a8b3415e8fe6e688c4b"
+  },
+  "methods": {
+    "PCHIP": "SciPy PchipInterpolator, feature-wise along time",
+    "KNN": "scikit-learn KNNImputer, nan_euclidean and distance weights",
+    "MICE": "scikit-learn IterativeImputer with BayesianRidge, deterministic"
+  },
+  "candidate_parameters": {
+    "KNN_neighbors": [
+      3,
+      5,
+      10
+    ],
+    "MICE_max_iter": [
+      3,
+      5
+    ]
+  },
+  "selected_on_validation": {
+    "PCHIP": 0,
+    "KNN": 10,
+    "MICE": 3
+  },
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.18.0",
+    "sklearn": "1.9.0"
+  },
+  "note": "Same archive study files, feature engineering, chronological split, scale fitting, masks and metrics as original ITRI run. Model settings selected from validation only."
+}

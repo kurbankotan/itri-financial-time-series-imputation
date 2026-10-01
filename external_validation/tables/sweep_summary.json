@@ -1,0 +1,15 @@
+{
+  "external_validation_selected": "itri_w7_p5",
+  "its_test": 0.25991081416373474,
+  "its_val": 0.21663059045389166,
+  "post_hoc_best_test": "itri_w10_p2",
+  "its_test_value": 0.25917188554054865,
+  "w1p5_rank_validation": 28,
+  "w1p5_rank_test": 28,
+  "spearman_val_test_28": 0.8489326765188835,
+  "w1p1_test": 0.26289732928062504,
+  "w3p3_test": 0.2617717234672168,
+  "linear_test": 0.2703579132135447,
+  "max_grid_test": 0.2723246622400533,
+  "argmax": "itri_w1_p5"
+}

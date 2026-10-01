@@ -1,0 +1,971 @@
+{
+  "snapshot_audit": "PASS",
+  "asset_count": 34,
+  "public_receipt_sha256": "09d3c32d715f8653fc5fc3c28e1cbe0b400f2f89c353146d589880687d6c05de",
+  "private_zip_sha256": "48dc63654f63db3ef9d6d5db7ab69ad502aa079e9f6deb4b276cf9b1170f324b",
+  "data_files_verified": 68,
+  "rows_total_clean": 94044,
+  "zero_volume_total": 6,
+  "assets": [
+    {
+      "ticker": "EWC",
+      "country": "Canada",
+      "region": "Americas",
+      "rows": 2766,
+      "start": "2015-01-02",
+      "end": "2025-12-31",
+      "zero_volume_rows": 0,
+      "zero_volume_dates": [],
+      "fold_counts_train_val_test": {
+        "A": [
+          1006,
+          252,
+          505
+        ],
+        "B": [
+          1511,
+          252,
+          501
+        ],
+        "C": [
+          2014,
+          250,
+          502
+        ]
+      },
+      "sha256": "be3f8a9fdba5b9bae783be15b156807f6f5a58fe6f9dae901bff6f2f854446d6"
+    },
+    {
+      "ticker": "EWZ",
+      "country": "Brazil",
+      "region": "Americas",
+      "rows": 2766,
+      "start": "2015-01-02",
+      "end": "2025-12-31",
+      "zero_volume_rows": 0,
+      "zero_volume_dates": [],
+      "fold_counts_train_val_test": {
+        "A": [
+          1006,
+          252,
+          505
+        ],
+        "B": [
+          1511,
+          252,
+          501
+        ],
+        "C": [
+          2014,
+          250,
+          502
+        ]
+      },
+      "sha256": "d71e928ecce25b3b1d5661506b45a48b02620bf5e198c2c946d6c738ff998a06"
+    },
+    {
+      "ticker": "ECH",
+      "country": "Chile",
+      "region": "Americas",
+      "rows": 2766,
+      "start": "2015-01-02",
+      "end": "2025-12-31",
+      "zero_volume_rows": 0,
+      "zero_volume_dates": [],
+      "fold_counts_train_val_test": {
+        "A": [
+          1006,
+          252,
+          505
+        ],
+        "B": [
+          1511,
+          252,
+          501
+        ],
+        "C": [
+          2014,
+          250,
+          502
+        ]
+      },
+      "sha256": "e0ab86637ce28e3b3db8b5a9dc20de655326bcd821f672d6ae814a4fca19a396"
+    },
+    {
+      "ticker": "EWW",
+      "country": "Mexico",
+      "region": "Americas",
+      "rows": 2766,
+      "start": "2015-01-02",
+      "end": "2025-12-31",
+      "zero_volume_rows": 0,
+      "zero_volume_dates": [],
+      "fold_counts_train_val_test": {
+        "A": [
+          1006,
+          252,
+          505
+        ],
+        "B": [
+          1511,
+          252,
+          501
+        ],
+        "C": [
+          2014,
+          250,
+          502
+        ]
+      },
+      "sha256": "ca2b202548dcf9e8a4bdcc2ba9ae7532310b6ff8cd08da6653551db2a81328ca"
+    },
+    {
+      "ticker": "EWO",
+      "country": "Austria",
+      "region": "Europe",
+      "rows": 2766,
+      "start": "2015-01-02",
+      "end": "2025-12-31",
+      "zero_volume_rows": 0,
+      "zero_volume_dates": [],
+      "fold_counts_train_val_test": {
+        "A": [
+          1006,
+          252,
+          505
+        ],
+        "B": [
+          1511,
+          252,
+          501
+        ],
+        "C": [
+          2014,
+          250,
+          502
+        ]
+      },
+      "sha256": "1ef38d6e628cb356ed1ef5cfb0666ffde25ac8d6c9070343df06316bee72377f"
+    },
+    {
+      "ticker": "EWK",
+      "country": "Belgium",
+      "region": "Europe",
+      "rows": 2766,
+      "start": "2015-01-02",
+      "end": "2025-12-31",
+      "zero_volume_rows": 0,
+      "zero_volume_dates": [],
+      "fold_counts_train_val_test": {
+        "A": [
+          1006,
+          252,
+          505
+        ],
+        "B": [
+          1511,
+          252,
+          501
+        ],
+        "C": [
+          2014,
+          250,
+          502
+        ]
+      },
+      "sha256": "64d0c00b8cce97b25a993390ac69e1b5411f7c649cb0a117d44f1fad6cc06dac"
+    },
+    {
+      "ticker": "EDEN",
+      "country": "Denmark",
+      "region": "Europe",
+      "rows": 2766,
+      "start": "2015-01-02",
+      "end": "2025-12-31",
+      "zero_volume_rows": 1,
+      "zero_volume_dates": [
+        "2019-09-23"
+      ],
+      "fold_counts_train_val_test": {
+        "A": [
+          1006,
+          252,
+          505
+        ],
+        "B": [
+          1511,
+          252,
+          501
+        ],
+        "C": [
+          2014,
+          250,
+          502
+        ]
+      },
+      "sha256": "18a853c65c0986217d16dbfb120409915ac9f8faf649f105d7669e1ef9a13490"
+    },
+    {
+      "ticker": "EFNL",
+      "country": "Finland",
+      "region": "Europe",
+      "rows": 2766,
+      "start": "2015-01-02",
+      "end": "2025-12-31",
+      "zero_volume_rows": 5,
+      "zero_volume_dates": [
+        "2015-04-09",
+        "2015-07-16",
+        "2015-08-17",
+        "2015-09-24",
+        "2019-09-17"
+      ],
+      "fold_counts_train_val_test": {
+        "A": [
+          1006,
+          252,
+          505
+        ],
+        "B": [
+          1511,
+          252,
+          501
+        ],
+        "C": [
+          2014,
+          250,
+          502
+        ]
+      },
+      "sha256": "0cfb36902381768d2c324a560e6087d76fa6004f457722453c975bcf56427a9f"
+    },
+    {
+      "ticker": "EWQ",
+      "country": "France",
+      "region": "Europe",
+      "rows": 2766,
+      "start": "2015-01-02",
+      "end": "2025-12-31",
+      "zero_volume_rows": 0,
+      "zero_volume_dates": [],
+      "fold_counts_train_val_test": {
+        "A": [
+          1006,
+          252,
+          505
+        ],
+        "B": [
+          1511,
+          252,
+          501
+        ],
+        "C": [
+          2014,
+          250,
+          502
+        ]
+      },
+      "sha256": "407999d91c70ee0f677dbd7430c86c0e2207fb12ec077ff2558b0427765ec59c"
+    },
+    {
+      "ticker": "EWG",
+      "country": "Germany",
+      "region": "Europe",
+      "rows": 2766,
+      "start": "2015-01-02",
+      "end": "2025-12-31",
+      "zero_volume_rows": 0,
+      "zero_volume_dates": [],
+      "fold_counts_train_val_test": {
+        "A": [
+          1006,
+          252,
+          505
+        ],
+        "B": [
+          1511,
+          252,
+          501
+        ],
+        "C": [
+          2014,
+          250,
+          502
+        ]
+      },
+      "sha256": "a0e87bb5689dc52470fe5b746024177ff59faa965542d2d2f0b32db9919ad9ce"
+    },
+    {
+      "ticker": "EIRL",
+      "country": "Ireland",
+      "region": "Europe",
+      "rows": 2766,
+      "start": "2015-01-02",
+      "end": "2025-12-31",
+      "zero_volume_rows": 0,
+      "zero_volume_dates": [],
+      "fold_counts_train_val_test": {
+        "A": [
+          1006,
+          252,
+          505
+        ],
+        "B": [
+          1511,
+          252,
+          501
+        ],
+        "C": [
+          2014,
+          250,
+          502
+        ]
+      },
+      "sha256": "147cc100dc268c2cfc16dc1c5828c9eb67f1cde500f1a31970b7d2a7b2020a25"
+    },
+    {
+      "ticker": "EWI",
+      "country": "Italy",
+      "region": "Europe",
+      "rows": 2766,
+      "start": "2015-01-02",
+      "end": "2025-12-31",
+      "zero_volume_rows": 0,
+      "zero_volume_dates": [],
+      "fold_counts_train_val_test": {
+        "A": [
+          1006,
+          252,
+          505
+        ],
+        "B": [
+          1511,
+          252,
+          501
+        ],
+        "C": [
+          2014,
+          250,
+          502
+        ]
+      },
+      "sha256": "6080dd5aab2f7813dbd81961bbbec4ae43102c040b192872869d518f28350016"
+    },
+    {
+      "ticker": "EWN",
+      "country": "Netherlands",
+      "region": "Europe",
+      "rows": 2766,
+      "start": "2015-01-02",
+      "end": "2025-12-31",
+      "zero_volume_rows": 0,
+      "zero_volume_dates": [],
+      "fold_counts_train_val_test": {
+        "A": [
+          1006,
+          252,
+          505
+        ],
+        "B": [
+          1511,
+          252,
+          501
+        ],
+        "C": [
+          2014,
+          250,
+          502
+        ]
+      },
+      "sha256": "1378c5144ba78d471181f077c942c4880a3280923245675b127e69080750bab6"
+    },
+    {
+      "ticker": "ENOR",
+      "country": "Norway",
+      "region": "Europe",
+      "rows": 2766,
+      "start": "2015-01-02",
+      "end": "2025-12-31",
+      "zero_volume_rows": 0,
+      "zero_volume_dates": [],
+      "fold_counts_train_val_test": {
+        "A": [
+          1006,
+          252,
+          505
+        ],
+        "B": [
+          1511,
+          252,
+          501
+        ],
+        "C": [
+          2014,
+          250,
+          502
+        ]
+      },
+      "sha256": "40d8234b784eb31cb5295f2cefed8dfd2c14a35ea4a84df0a91038e68dd6ba1e"
+    },
+    {
+      "ticker": "EPOL",
+      "country": "Poland",
+      "region": "Europe",
+      "rows": 2766,
+      "start": "2015-01-02",
+      "end": "2025-12-31",
+      "zero_volume_rows": 0,
+      "zero_volume_dates": [],
+      "fold_counts_train_val_test": {
+        "A": [
+          1006,
+          252,
+          505
+        ],
+        "B": [
+          1511,
+          252,
+          501
+        ],
+        "C": [
+          2014,
+          250,
+          502
+        ]
+      },
+      "sha256": "09555aab3fa099e67be22446697b3d9e27c729458029a968e8f7e1351498f172"
+    },
+    {
+      "ticker": "EWP",
+      "country": "Spain",
+      "region": "Europe",
+      "rows": 2766,
+      "start": "2015-01-02",
+      "end": "2025-12-31",
+      "zero_volume_rows": 0,
+      "zero_volume_dates": [],
+      "fold_counts_train_val_test": {
+        "A": [
+          1006,
+          252,
+          505
+        ],
+        "B": [
+          1511,
+          252,
+          501
+        ],
+        "C": [
+          2014,
+          250,
+          502
+        ]
+      },
+      "sha256": "8303d31eaa78e0c8333e7ea54ed9cbc5725fec7cfaa5067c973b546f46c1dade"
+    },
+    {
+      "ticker": "EWD",
+      "country": "Sweden",
+      "region": "Europe",
+      "rows": 2766,
+      "start": "2015-01-02",
+      "end": "2025-12-31",
+      "zero_volume_rows": 0,
+      "zero_volume_dates": [],
+      "fold_counts_train_val_test": {
+        "A": [
+          1006,
+          252,
+          505
+        ],
+        "B": [
+          1511,
+          252,
+          501
+        ],
+        "C": [
+          2014,
+          250,
+          502
+        ]
+      },
+      "sha256": "49f87e477298d729ecaedc5946c6784a5a7d1a3cfb295a1e2b2ef016af37eb2f"
+    },
+    {
+      "ticker": "EWL",
+      "country": "Switzerland",
+      "region": "Europe",
+      "rows": 2766,
+      "start": "2015-01-02",
+      "end": "2025-12-31",
+      "zero_volume_rows": 0,
+      "zero_volume_dates": [],
+      "fold_counts_train_val_test": {
+        "A": [
+          1006,
+          252,
+          505
+        ],
+        "B": [
+          1511,
+          252,
+          501
+        ],
+        "C": [
+          2014,
+          250,
+          502
+        ]
+      },
+      "sha256": "e0bac0ec03e973f361e43bbf870d15dad8a0e8599b58b9006cf8d9625b107547"
+    },
+    {
+      "ticker": "EWU",
+      "country": "United Kingdom",
+      "region": "Europe",
+      "rows": 2766,
+      "start": "2015-01-02",
+      "end": "2025-12-31",
+      "zero_volume_rows": 0,
+      "zero_volume_dates": [],
+      "fold_counts_train_val_test": {
+        "A": [
+          1006,
+          252,
+          505
+        ],
+        "B": [
+          1511,
+          252,
+          501
+        ],
+        "C": [
+          2014,
+          250,
+          502
+        ]
+      },
+      "sha256": "1d55355f9501f7a637d5f17e3ede3beeafc97a2c297c7658e77362e0241f8a57"
+    },
+    {
+      "ticker": "EWA",
+      "country": "Australia",
+      "region": "Asia-Pacific",
+      "rows": 2766,
+      "start": "2015-01-02",
+      "end": "2025-12-31",
+      "zero_volume_rows": 0,
+      "zero_volume_dates": [],
+      "fold_counts_train_val_test": {
+        "A": [
+          1006,
+          252,
+          505
+        ],
+        "B": [
+          1511,
+          252,
+          501
+        ],
+        "C": [
+          2014,
+          250,
+          502
+        ]
+      },
+      "sha256": "e3d4f21ad11638181237d02e824f253f8048e4257797f11e2df79d800ce1f38f"
+    },
+    {
+      "ticker": "MCHI",
+      "country": "China",
+      "region": "Asia-Pacific",
+      "rows": 2766,
+      "start": "2015-01-02",
+      "end": "2025-12-31",
+      "zero_volume_rows": 0,
+      "zero_volume_dates": [],
+      "fold_counts_train_val_test": {
+        "A": [
+          1006,
+          252,
+          505
+        ],
+        "B": [
+          1511,
+          252,
+          501
+        ],
+        "C": [
+          2014,
+          250,
+          502
+        ]
+      },
+      "sha256": "0cdf946f81a17de83fbb4b97e1e3f0373015e170081b4ec5558d80e175607900"
+    },
+    {
+      "ticker": "EWH",
+      "country": "Hong Kong",
+      "region": "Asia-Pacific",
+      "rows": 2766,
+      "start": "2015-01-02",
+      "end": "2025-12-31",
+      "zero_volume_rows": 0,
+      "zero_volume_dates": [],
+      "fold_counts_train_val_test": {
+        "A": [
+          1006,
+          252,
+          505
+        ],
+        "B": [
+          1511,
+          252,
+          501
+        ],
+        "C": [
+          2014,
+          250,
+          502
+        ]
+      },
+      "sha256": "1b6b3bb82b77e7b9c35669ed1c4640f80433888532f76c34137b85b6e67a9ec0"
+    },
+    {
+      "ticker": "INDA",
+      "country": "India",
+      "region": "Asia-Pacific",
+      "rows": 2766,
+      "start": "2015-01-02",
+      "end": "2025-12-31",
+      "zero_volume_rows": 0,
+      "zero_volume_dates": [],
+      "fold_counts_train_val_test": {
+        "A": [
+          1006,
+          252,
+          505
+        ],
+        "B": [
+          1511,
+          252,
+          501
+        ],
+        "C": [
+          2014,
+          250,
+          502
+        ]
+      },
+      "sha256": "1b47e4941aec925d5ec9da9e13a2740bc5e694da5ee8200b888a4665c552db73"
+    },
+    {
+      "ticker": "EIDO",
+      "country": "Indonesia",
+      "region": "Asia-Pacific",
+      "rows": 2766,
+      "start": "2015-01-02",
+      "end": "2025-12-31",
+      "zero_volume_rows": 0,
+      "zero_volume_dates": [],
+      "fold_counts_train_val_test": {
+        "A": [
+          1006,
+          252,
+          505
+        ],
+        "B": [
+          1511,
+          252,
+          501
+        ],
+        "C": [
+          2014,
+          250,
+          502
+        ]
+      },
+      "sha256": "acfd3b957689eea8906fb9b8b0c656082a06d1282567bc03d6febeab2b277544"
+    },
+    {
+      "ticker": "EWJ",
+      "country": "Japan",
+      "region": "Asia-Pacific",
+      "rows": 2766,
+      "start": "2015-01-02",
+      "end": "2025-12-31",
+      "zero_volume_rows": 0,
+      "zero_volume_dates": [],
+      "fold_counts_train_val_test": {
+        "A": [
+          1006,
+          252,
+          505
+        ],
+        "B": [
+          1511,
+          252,
+          501
+        ],
+        "C": [
+          2014,
+          250,
+          502
+        ]
+      },
+      "sha256": "a8c03e0ce541054bcd01d448f88343f1ae37999738e8804884800125e31c2bf3"
+    },
+    {
+      "ticker": "EWM",
+      "country": "Malaysia",
+      "region": "Asia-Pacific",
+      "rows": 2766,
+      "start": "2015-01-02",
+      "end": "2025-12-31",
+      "zero_volume_rows": 0,
+      "zero_volume_dates": [],
+      "fold_counts_train_val_test": {
+        "A": [
+          1006,
+          252,
+          505
+        ],
+        "B": [
+          1511,
+          252,
+          501
+        ],
+        "C": [
+          2014,
+          250,
+          502
+        ]
+      },
+      "sha256": "f7f92c477a9d188b45166b8d3af1d23a6712d8541a404b034b0f059408a68d2d"
+    },
+    {
+      "ticker": "ENZL",
+      "country": "New Zealand",
+      "region": "Asia-Pacific",
+      "rows": 2766,
+      "start": "2015-01-02",
+      "end": "2025-12-31",
+      "zero_volume_rows": 0,
+      "zero_volume_dates": [],
+      "fold_counts_train_val_test": {
+        "A": [
+          1006,
+          252,
+          505
+        ],
+        "B": [
+          1511,
+          252,
+          501
+        ],
+        "C": [
+          2014,
+          250,
+          502
+        ]
+      },
+      "sha256": "67f2a20d18975a2b3e9d5c49d713ab90d5a75007bb207595f769241405dc88d7"
+    },
+    {
+      "ticker": "EPHE",
+      "country": "Philippines",
+      "region": "Asia-Pacific",
+      "rows": 2766,
+      "start": "2015-01-02",
+      "end": "2025-12-31",
+      "zero_volume_rows": 0,
+      "zero_volume_dates": [],
+      "fold_counts_train_val_test": {
+        "A": [
+          1006,
+          252,
+          505
+        ],
+        "B": [
+          1511,
+          252,
+          501
+        ],
+        "C": [
+          2014,
+          250,
+          502
+        ]
+      },
+      "sha256": "9edd7ae25c461695365a1e95da3041fc068993e5f9c9a5dd9585ef82c0003d16"
+    },
+    {
+      "ticker": "EWS",
+      "country": "Singapore",
+      "region": "Asia-Pacific",
+      "rows": 2766,
+      "start": "2015-01-02",
+      "end": "2025-12-31",
+      "zero_volume_rows": 0,
+      "zero_volume_dates": [],
+      "fold_counts_train_val_test": {
+        "A": [
+          1006,
+          252,
+          505
+        ],
+        "B": [
+          1511,
+          252,
+          501
+        ],
+        "C": [
+          2014,
+          250,
+          502
+        ]
+      },
+      "sha256": "bd8413c9bec8996fa2d3519d488abea53ca2c4e8e7f031b8e63397daadf36819"
+    },
+    {
+      "ticker": "EWY",
+      "country": "South Korea",
+      "region": "Asia-Pacific",
+      "rows": 2766,
+      "start": "2015-01-02",
+      "end": "2025-12-31",
+      "zero_volume_rows": 0,
+      "zero_volume_dates": [],
+      "fold_counts_train_val_test": {
+        "A": [
+          1006,
+          252,
+          505
+        ],
+        "B": [
+          1511,
+          252,
+          501
+        ],
+        "C": [
+          2014,
+          250,
+          502
+        ]
+      },
+      "sha256": "9626aaa63e9f6c48a12266a9956de3cc0ef163f52e1ce1bd049f006517f62924"
+    },
+    {
+      "ticker": "EWT",
+      "country": "Taiwan",
+      "region": "Asia-Pacific",
+      "rows": 2766,
+      "start": "2015-01-02",
+      "end": "2025-12-31",
+      "zero_volume_rows": 0,
+      "zero_volume_dates": [],
+      "fold_counts_train_val_test": {
+        "A": [
+          1006,
+          252,
+          505
+        ],
+        "B": [
+          1511,
+          252,
+          501
+        ],
+        "C": [
+          2014,
+          250,
+          502
+        ]
+      },
+      "sha256": "8ff0b7b04a8d510b3f63ea6d292161ebacb9876b7bf053aae40ee16f29844814"
+    },
+    {
+      "ticker": "THD",
+      "country": "Thailand",
+      "region": "Asia-Pacific",
+      "rows": 2766,
+      "start": "2015-01-02",
+      "end": "2025-12-31",
+      "zero_volume_rows": 0,
+      "zero_volume_dates": [],
+      "fold_counts_train_val_test": {
+        "A": [
+          1006,
+          252,
+          505
+        ],
+        "B": [
+          1511,
+          252,
+          501
+        ],
+        "C": [
+          2014,
+          250,
+          502
+        ]
+      },
+      "sha256": "56c1b63bdb51e305f44f2bf6ef1f73512d2223f1b04d838e5050048499933d93"
+    },
+    {
+      "ticker": "EIS",
+      "country": "Israel",
+      "region": "Middle East and Africa",
+      "rows": 2766,
+      "start": "2015-01-02",
+      "end": "2025-12-31",
+      "zero_volume_rows": 0,
+      "zero_volume_dates": [],
+      "fold_counts_train_val_test": {
+        "A": [
+          1006,
+          252,
+          505
+        ],
+        "B": [
+          1511,
+          252,
+          501
+        ],
+        "C": [
+          2014,
+          250,
+          502
+        ]
+      },
+      "sha256": "5930320c88caa95380d5f4b9b7b64021f0c96f33d9fd20f8824c3a0e7974b463"
+    },
+    {
+      "ticker": "EZA",
+      "country": "South Africa",
+      "region": "Middle East and Africa",
+      "rows": 2766,
+      "start": "2015-01-02",
+      "end": "2025-12-31",
+      "zero_volume_rows": 0,
+      "zero_volume_dates": [],
+      "fold_counts_train_val_test": {
+        "A": [
+          1006,
+          252,
+          505
+        ],
+        "B": [
+          1511,
+          252,
+          501
+        ],
+        "C": [
+          2014,
+          250,
+          502
+        ]
+      },
+      "sha256": "48ee993da1fb9ca2bcb3c9ee99dcc0ed7ca92b25afefddef8a33738b43b8cbad"
+    }
+  ]
+}

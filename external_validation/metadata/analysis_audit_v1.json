@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "assets": 34,
+  "folds": [
+    "A",
+    "B",
+    "C"
+  ],
+  "methods": [
+    "linear",
+    "pchip",
+    "knn5",
+    "chained_ridge",
+    "itri_w1_p5",
+    "brits",
+    "saits"
+  ],
+  "feature_rows": 192780,
+  "condition_method_rows": 38556,
+  "asset_method_rows": 238,
+  "validation_feature_rows": 192780,
+  "classical_fingerprint": "10b251d0c2cdf95223256a075ec5ef94f2f85419208b270f430c53ce04e53546",
+  "neural_fingerprint": "e46236273b268822db0ee75088f22d4ebe74ac97f4cdc909d7602f955684e88e",
+  "unit_of_analysis": "asset (conditions and folds averaged within asset)",
+  "inferential_tests": "none; ETF dependence not assumed away"
+}

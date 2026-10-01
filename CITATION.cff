@@ -1,12 +1,29 @@
 cff-version: 1.2.0
-message: "If you use this software or its published results, please cite the associated article and this repository."
-title: "Iterative Temporal Regression Imputation for Financial Time Series"
+message: "If you use this code or its result files, please cite this repository and the associated article."
+title: "Iterative Temporal Regression Imputation (ITRI) for contiguous missing blocks in multivariate financial time series: code, protocols, and results"
 type: software
 authors:
   - family-names: "KOTAN"
     given-names: "Kurban"
     orcid: "https://orcid.org/0000-0002-6660-0565"
+    affiliation: "Manisa Celal Bayar University"
 repository-code: "https://github.com/kurbankotan/itri-financial-time-series-imputation"
 url: "https://github.com/kurbankotan/itri-financial-time-series-imputation"
-version: "1.0.0"
-date-released: "2026-09-22"
+license: MIT
+version: "2.0.0"
+date-released: "2026-10-01"
+keywords:
+  - missing data imputation
+  - financial time series
+  - contiguous missing blocks
+  - temporal regression
+  - external validation
+  - distribution shift
+abstract: >-
+  Code, frozen protocols, condition-level results, tables, and figures for a
+  leakage-aware window and pass ablation of Iterative Temporal Regression
+  Imputation on BIST 30 and S&P 500 data, matched-mask comparators on the same
+  data, and an external validation on 34 country ETFs against linear
+  interpolation, PCHIP, KNN, chained ridge, BRITS, and SAITS, including an
+  exploratory configuration sweep, a level-shift diagnostic, and a per-window
+  normalization amendment.

@@ -1,104 +1,74 @@
-# Iterative Temporal Regression Imputation
+# Iterative Temporal Regression Imputation (ITRI)
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kurbankotan/itri-financial-time-series-imputation/blob/main/notebooks/ITRI_Window_Ablation_Colab.ipynb)
 [![Verify published results](https://github.com/kurbankotan/itri-financial-time-series-imputation/actions/workflows/verify-results.yml/badge.svg)](https://github.com/kurbankotan/itri-financial-time-series-imputation/actions/workflows/verify-results.yml)
 
-This repository contains the code and published result files for **Iterative Temporal Regression Imputation (ITRI)**, a retrospective method for reconstructing controlled contiguous gaps in multivariate financial time series.
+This repository accompanies the manuscript
 
-The accompanying study evaluates 28 combinations of temporal window width and refinement passes on daily BIST 30 and S&P 500 data from 2015 through 2025. It uses chronological training, validation, and test partitions; fixed contiguous-block masks; and paired statistical comparisons. MCAR and MAR masks are outside the scope of this experiment.
+> K. Kotan, *Iterative Temporal Regression Imputation for Contiguous Missing Blocks in Multivariate Financial Time Series: A Leakage-Aware Ablation, External Validation, and Comparator Failure Analysis* (under review).
 
-## Main result
+It contains every piece of code, every frozen protocol, the condition-level results of every method, and the tables and figures reported in the manuscript. ITRI is a retrospective imputer for contiguous gaps: it initializes a gap by linear interpolation and refines the hidden cells with a feature-wise ordinary least squares model on a centered temporal window of width *w*, applied for *p* passes, restoring the observed cells after every pass.
 
-Validation selected a one-day centered window with five refinement passes. On the independent test partition, this configuration achieved mean NRMSE 0.198094. It reduced mean NRMSE by 11.03% relative to the inherited three-day three-pass configuration and by 14.77% relative to interpolation alone. The repository includes the complete grids needed to inspect these comparisons rather than only the aggregated values reported in the manuscript.
+## What is where
 
-## Reproduce the experiment in Colab
+| Part | Folder | Manuscript |
+|---|---|---|
+| Development ablation: BIST 30 and S&P 500, 14 features, 28 window and pass configurations | `notebooks/`, `scripts/`, `results/`, `metadata/` | Sections 4.1-4.3, 5.1-5.5; Tables 1-3, 5-8; Figures 1-4 |
+| Matched-mask comparators on the development data: PCHIP, KNN, chained equations | `development_comparators/` | Sections 4.4, 5.6, 5.7; Tables 9-10 |
+| External validation on 34 country ETFs: frozen protocol, six comparators, exploratory sweep, level-shift diagnostic, normalization amendment | `external_validation/` | Sections 4.5, 5.8-5.10, 6.4-6.5; Tables 4, 11-21; Figures 5-7 |
+| Figures as printed in the manuscript | `paper_figures/` | Figures 1-7 |
 
-1. Click **Open in Colab** above.
-2. Select **Runtime → Run all**.
-3. Wait for the notebook to download the data, run the validation and test grids, generate the statistical tables and figures, and download `itri_window_ablation_results.zip`.
+## Main results
 
-The workflow uses scikit-learn linear regression and does not require a GPU. A standard Colab CPU runtime is sufficient; an A100 does not materially accelerate this experiment.
+- **Development study.** Validation selected a one-day window with five passes (w = 1, p = 5). On the held-out test partition it reached mean NRMSE 0.198094, 11.03% below the inherited w = 3, p = 3 setting and 14.77% below linear interpolation.
+- **External validation (frozen protocol, 34 ETFs, 3 folds, 5,508 matched block masks).** ITRI reached asset-level mean NRMSE 0.2723 against 0.2704 for linear interpolation; the two agree to four decimals on open, high, low, and close, and the whole difference comes from volume. Every frozen comparator (PCHIP, KNN, chained ridge, BRITS, SAITS) had higher error than ITRI.
+- **Exploratory analyses.** The fitted one-day price coefficients sum to one, which makes interpolation a fixed point of the refinement; the prespecified setting ranked 28th of 28 on the external panel; every comparator whose output depends on the absolute training-scaled level failed in proportion to the test-period displacement; with per-window normalization SAITS reached 0.2219 (200 epochs), below ITRI in all 34 assets and at every gap length.
 
-## Verify the published result files
+## Verify the reported numbers
 
-The following commands verify the selected configuration, row counts, paired conditions, reported means, and absence of duplicate or nonfinite metric rows without rerunning the full experiment:
+No market data are needed. From the repository root:
 
 ```bash
 python -m venv .venv
-source .venv/bin/activate
+source .venv/bin/activate            # Windows: .venv\Scripts\activate
 python -m pip install -r requirements.txt
-python scripts/verify_published_results.py
+python scripts/verify_published_results.py                     # development ablation
+python development_comparators/verify_comparator_numbers.py    # Tables 9 and 10
+python external_validation/code/verify_reported_numbers.py     # Sections 5.8-5.10, Tables 11-21
 ```
 
-Expected final line:
+Each script prints one `PASS` line per check and exits with status 0 only if every check passes. The GitHub Actions workflow in `.github/workflows/verify-results.yml` runs all three on every push.
 
-```text
-All published-result checks passed.
-```
-
-## Run locally from the command line
-
-After installing `requirements.txt`, run:
+The external tables and figures can be regenerated from the result files with
 
 ```bash
-python scripts/run_full_experiment.py
+python external_validation/code/analyze_external.py       # Tables 11-20 and related text values
+python external_validation/code/analyze_brits_subset.py   # Table 21
+python external_validation/code/cross_hardware_check.py   # CPU versus A100 check (Section 5.10)
+python external_validation/code/make_figures.py           # Figures 5-7
 ```
 
-The script downloads the market records, creates `reproduction_run/`, executes the same experiment as the Colab notebook, and writes a ZIP archive in the repository root. Runtime depends on CPU performance because the complete design contains 3,024 validation and 3,024 test evaluations.
+## Rerun the experiments
 
-## Repository contents
+- **Development ablation.** Open the Colab notebook (badge above) and select *Runtime, Run all*, or run `python scripts/run_full_experiment.py`. Both download the two index series from Yahoo Finance; `metadata/data_manifest.json` records the SHA-256 hashes of the files used for the reported run.
+- **Development comparators.** `development_comparators/README.md` explains how to rerun them from the two original study files.
+- **External validation.** `external_validation/README.md` describes the acquisition script, the frozen runners, the Colab notebooks, and the exploratory runners. The runs need the vendor snapshot of the 34 ETFs, which is not redistributed (see below).
 
-```text
-notebooks/
-  ITRI_Window_Ablation_Colab.ipynb   Run-all Colab experiment
-scripts/
-  run_full_experiment.py             Command-line form of the notebook
-  verify_published_results.py        Fast integrity and result checks
-results/
-  validation_grid.csv                Complete validation grid
-  test_grid.csv                      Complete independent test grid
-  validation_summary.csv             Window-pass validation summaries
-  test_summary.csv                   Window-pass test summaries
-  selected_vs_competitors_tests.csv  Paired Wilcoxon and Holm results
-  friedman_test.csv                  Omnibus paired comparison
-  selected_test_by_market_block.csv  Market and gap-length summaries
-  test_by_block_length.csv           Full gap-length summaries
-  interpolation_baseline_test.csv    Identical-mask interpolation baseline
-  selected_configuration.json        Validation-selected configuration
-  run_metadata.json                  Configuration and software metadata
-  figures/                            Figures generated by the experiment
-metadata/
-  data_manifest.json                 Data provenance and study-file hashes
-  expected_metrics.json              Machine-readable verification targets
-paper_figures/                       Figures used in the manuscript
-.github/workflows/verify-results.yml Automated published-result checks
-```
+## Data
 
-## Data provenance
+Daily market records come from Yahoo Finance through `yfinance` and are not redistributed, in line with the provider's terms. The repository records the SHA-256 hash of every input file (`metadata/data_manifest.json`, `external_validation/metadata/acquisition_qc_receipt.json`) and of the private ETF snapshot (`48dc63654f63db3ef9d6d5db7ab69ad502aa079e9f6deb4b276cf9b1170f324b`), so that a fresh download can be checked against the study files. Providers revise historical records, so a later download can differ from them. No file in this repository contains price or volume levels: the result files hold reconstruction errors, mask seeds, timings, fitted coefficients, and diagnostics.
 
-Daily auto-adjusted records are downloaded through `yfinance` from Yahoo Finance for BIST 30 (`XU030.IS`) and S&P 500 (`^GSPC`). Raw market files are not redistributed. `metadata/data_manifest.json` records the tickers, study period, row counts, and SHA-256 hashes of the files used for the reported run. Data providers may revise historical records, so a later download can differ from the study files even when the code and random seeds are unchanged.
+## Software
 
-## Experimental controls
+The development ablation used Python 3.13, NumPy 2.1.3, pandas 2.2.3, SciPy 1.16.3, scikit-learn 1.6.1, and yfinance 0.2.66 (`requirements.txt`). The versions used by the external runs, including PyTorch and PyPOTS for BRITS and SAITS, are listed in `external_validation/requirements-runs.txt` and recorded per session in `external_validation/metadata/`.
 
-- Study period: 2015-01-01 to 2026-01-01, with the end date exclusive.
-- Chronological split: 70% training, 15% validation, 15% test.
-- Windows: 1, 2, 3, 4, 5, 7, and 10 trading days on each side.
-- Refinement passes: 1, 2, 3, and 5.
-- Gap lengths: 1, 2, 3, 5, 10, and 20 trading days.
-- Missing rates: 10%, 20%, and 30% of eligible cells.
-- Random seeds: 11, 23, and 37.
-- Conditions per configuration and split: 108.
-- Selection criterion: mean validation NRMSE.
+## Citation and license
 
-The centered window includes observations after the missing timestamp. ITRI is therefore evaluated as a retrospective imputer, not as an online or real-time forecasting method.
-
-## Citation
-
-Citation metadata are provided in `CITATION.cff`. Please cite the associated article when it becomes available and cite this repository when using the code or result files.
+Citation metadata are in `CITATION.cff`; please cite the article once it is published. The code is released under the MIT License (`LICENSE`); the result files, tables, and figures are released under CC BY 4.0.
 
 ## Author
 
 Kurban KOTAN<br>
-Department of Artificial Intelligence and Machine Learning<br>
-Manisa Celal Bayar University<br>
-ORCID: [0000-0002-6660-0565](https://orcid.org/0000-0002-6660-0565)
+Department of Artificial Intelligence and Machine Learning, Faculty of Computer and Information Sciences<br>
+Manisa Celal Bayar University, Manisa, Turkey<br>
+ORCID: [0000-0002-6660-0565](https://orcid.org/0000-0002-6660-0565) · kurban.kotan@cbu.edu.tr

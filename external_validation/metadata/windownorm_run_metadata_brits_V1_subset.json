@@ -1,0 +1,24 @@
+{
+  "label": "EXPLORATORY protocol v2 amendment: per-window instance normalization",
+  "method": "brits",
+  "variant": "V1",
+  "config": {
+    "epochs": 30,
+    "patience": 5
+  },
+  "fingerprint": "3b5963449731851f0034aa30cd88870676b923934b329182d142bce5668c731d",
+  "manifest_sha256": "37ed5c7becd54665c108ecf296bca1a0dd94ffc0a20788a3b9dd42679eb70d64",
+  "private_zip_sha256": "48dc63654f63db3ef9d6d5db7ab69ad502aa079e9f6deb4b276cf9b1170f324b",
+  "device": "cuda",
+  "gpu": "NVIDIA A100-SXM4-40GB",
+  "versions": {
+    "python": "3.13.15",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "torch": "2.11.0+cu128",
+    "pypots": "1.5"
+  },
+  "window_length": 64,
+  "window_stride": 16,
+  "batch_size": 32
+}

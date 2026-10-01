@@ -1,0 +1,35 @@
+ticker,country,region
+EWC,Canada,Americas
+EWZ,Brazil,Americas
+ECH,Chile,Americas
+EWW,Mexico,Americas
+EWO,Austria,Europe
+EWK,Belgium,Europe
+EDEN,Denmark,Europe
+EFNL,Finland,Europe
+EWQ,France,Europe
+EWG,Germany,Europe
+EIRL,Ireland,Europe
+EWI,Italy,Europe
+EWN,Netherlands,Europe
+ENOR,Norway,Europe
+EPOL,Poland,Europe
+EWP,Spain,Europe
+EWD,Sweden,Europe
+EWL,Switzerland,Europe
+EWU,United Kingdom,Europe
+EWA,Australia,Asia-Pacific
+MCHI,China,Asia-Pacific
+EWH,Hong Kong,Asia-Pacific
+INDA,India,Asia-Pacific
+EIDO,Indonesia,Asia-Pacific
+EWJ,Japan,Asia-Pacific
+EWM,Malaysia,Asia-Pacific
+ENZL,New Zealand,Asia-Pacific
+EPHE,Philippines,Asia-Pacific
+EWS,Singapore,Asia-Pacific
+EWY,South Korea,Asia-Pacific
+EWT,Taiwan,Asia-Pacific
+THD,Thailand,Asia-Pacific
+EIS,Israel,Middle East and Africa
+EZA,South Africa,Middle East and Africa

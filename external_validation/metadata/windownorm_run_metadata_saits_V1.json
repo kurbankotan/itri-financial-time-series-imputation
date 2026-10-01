@@ -1,0 +1,24 @@
+{
+  "label": "EXPLORATORY protocol v2 amendment: per-window instance normalization",
+  "method": "saits",
+  "variant": "V1",
+  "config": {
+    "epochs": 30,
+    "patience": 5
+  },
+  "fingerprint": "5a7e56ee4b968780f986d2aa61f8555b52a48c79b09b40c7fff606ca76b3dda9",
+  "manifest_sha256": "37ed5c7becd54665c108ecf296bca1a0dd94ffc0a20788a3b9dd42679eb70d64",
+  "private_zip_sha256": "48dc63654f63db3ef9d6d5db7ab69ad502aa079e9f6deb4b276cf9b1170f324b",
+  "device": "cpu",
+  "gpu": null,
+  "versions": {
+    "python": "3.11.15",
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "torch": "2.14.0+cu130",
+    "pypots": "1.5"
+  },
+  "window_length": 64,
+  "window_stride": 16,
+  "batch_size": 32
+}
