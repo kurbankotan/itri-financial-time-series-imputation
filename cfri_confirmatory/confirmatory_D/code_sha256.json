@@ -1,0 +1,11 @@
+{
+ "protocol": "CFRI-confirmatory-protocol-v1",
+ "files": {
+  "cfri_core.py": "ef33fa6f0fdcb8a79b0f364f9ff00b7820a707e8323f6f03bac554de5d657721",
+  "confirm_analyze.py": "cccc4bb504b518b222cab4ec053f0e94dd4806652f16462c04419e320fd84eb6",
+  "confirm_cpu.py": "fecd0fbe7a3f250b6f28ba5cea08f4c326f5799296caf0e547d52c8411179cf6",
+  "confirm_data.py": "3cedfb265cf71209ed4234d0e05e22b14a99495311ccebe06a46796413bc92db",
+  "confirm_saits.py": "86b592b9d380cc0fd694d35f8031f8dac16a130a5bfed022c56b180ca27f07a4",
+  "run_confirm.py": "99236ec45445cb6954a4ab657a2c445c6751c063f15fbdc6165d3274b9a96661"
+ }
+}

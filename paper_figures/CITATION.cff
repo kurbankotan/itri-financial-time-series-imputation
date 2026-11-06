@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this code or its result files, please cite this repository and the associated article."
+title: "Iterative Temporal Regression Imputation (ITRI) and Cross-Feature Residual Interpolation (CFRI) for contiguous missing blocks in multivariate financial time series: code, protocols, and results"
+type: software
+authors:
+  - family-names: "KOTAN"
+    given-names: "Kurban"
+    orcid: "https://orcid.org/0000-0002-6660-0565"
+    affiliation: "Manisa Celal Bayar University"
+repository-code: "https://github.com/kurbankotan/itri-financial-time-series-imputation"
+url: "https://github.com/kurbankotan/itri-financial-time-series-imputation"
+license: MIT
+version: "2.1.0"
+date-released: "2026-10-29"
+keywords:
+  - missing data imputation
+  - financial time series
+  - contiguous missing blocks
+  - temporal regression
+  - cross-feature residual interpolation
+  - external validation
+  - distribution shift
+abstract: >-
+  Code, frozen protocols, condition-level results, tables, and figures for a
+  leakage-aware window and pass ablation of Iterative Temporal Regression
+  Imputation on BIST 30 and S&P 500 data, matched-mask comparators on the same
+  data, an external validation on 34 country ETFs against linear
+  interpolation, PCHIP, KNN, chained ridge, BRITS, and SAITS, including an
+  exploratory configuration sweep, a level-shift diagnostic, and a per-window
+  normalization amendment, and the cross-feature residual interpolation
+  extension with its prespecified test on January to September 2026 data and
+  its locally frozen holdout on 16 new ETFs with a peer-return bridge.

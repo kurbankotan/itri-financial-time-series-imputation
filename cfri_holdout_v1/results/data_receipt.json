@@ -1,0 +1,3975 @@
+{
+  "acquisition_finished_utc": "2026-10-29T04:21:36.533665+00:00",
+  "acquisition_started_utc": "2026-10-29T04:21:18.967060+00:00",
+  "assets": [
+    {
+      "eligible": true,
+      "first_date": "2015-01-02",
+      "last_date": "2026-09-30",
+      "longest_absent_us_session_run": 0,
+      "non_us_session_count": 0,
+      "reasons": [],
+      "retrieved_utc": "2026-10-29T04:21:19.519924+00:00",
+      "role": "target",
+      "row_count": 2953,
+      "sequence": 1,
+      "sessions_2026": 187,
+      "sha256": "859ee881a66a3fcb9a56f2fd3a04aa199c8f30d9bb4e14d432bfdafb12138d77",
+      "source": "fresh_yfinance_download",
+      "ticker": "XLB",
+      "yearly_coverage": {
+        "2015": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2016": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2017": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2018": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2019": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2020": {
+          "coverage": 1.0,
+          "expected_sessions": 253,
+          "observed_sessions": 253
+        },
+        "2021": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2022": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2023": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2024": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2025": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2026": {
+          "coverage": 1.0,
+          "expected_sessions": 187,
+          "observed_sessions": 187
+        }
+      }
+    },
+    {
+      "eligible": true,
+      "first_date": "2015-01-02",
+      "last_date": "2026-09-30",
+      "longest_absent_us_session_run": 0,
+      "non_us_session_count": 0,
+      "reasons": [],
+      "retrieved_utc": "2026-10-29T04:21:19.915501+00:00",
+      "role": "target",
+      "row_count": 2953,
+      "sequence": 2,
+      "sessions_2026": 187,
+      "sha256": "33e9b8e67780d288dba8689b7d2e0bbe114101c44f0cec6f9c4ebf721769aaec",
+      "source": "fresh_yfinance_download",
+      "ticker": "XLE",
+      "yearly_coverage": {
+        "2015": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2016": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2017": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2018": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2019": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2020": {
+          "coverage": 1.0,
+          "expected_sessions": 253,
+          "observed_sessions": 253
+        },
+        "2021": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2022": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2023": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2024": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2025": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2026": {
+          "coverage": 1.0,
+          "expected_sessions": 187,
+          "observed_sessions": 187
+        }
+      }
+    },
+    {
+      "eligible": true,
+      "first_date": "2015-01-02",
+      "last_date": "2026-09-30",
+      "longest_absent_us_session_run": 0,
+      "non_us_session_count": 0,
+      "reasons": [],
+      "retrieved_utc": "2026-10-29T04:21:20.312066+00:00",
+      "role": "target",
+      "row_count": 2953,
+      "sequence": 3,
+      "sessions_2026": 187,
+      "sha256": "98ddae36cf840b59dad782eb7d18e5ad964c0d052c66f726642e1e1017f8fe77",
+      "source": "fresh_yfinance_download",
+      "ticker": "XLF",
+      "yearly_coverage": {
+        "2015": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2016": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2017": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2018": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2019": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2020": {
+          "coverage": 1.0,
+          "expected_sessions": 253,
+          "observed_sessions": 253
+        },
+        "2021": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2022": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2023": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2024": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2025": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2026": {
+          "coverage": 1.0,
+          "expected_sessions": 187,
+          "observed_sessions": 187
+        }
+      }
+    },
+    {
+      "eligible": true,
+      "first_date": "2015-01-02",
+      "last_date": "2026-09-30",
+      "longest_absent_us_session_run": 0,
+      "non_us_session_count": 0,
+      "reasons": [],
+      "retrieved_utc": "2026-10-29T04:21:20.730151+00:00",
+      "role": "target",
+      "row_count": 2953,
+      "sequence": 4,
+      "sessions_2026": 187,
+      "sha256": "674f9efe7dd2f30460b5b32edb44465b9470b7f1f955fbc2ad3518ee173e67c7",
+      "source": "fresh_yfinance_download",
+      "ticker": "XLI",
+      "yearly_coverage": {
+        "2015": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2016": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2017": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2018": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2019": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2020": {
+          "coverage": 1.0,
+          "expected_sessions": 253,
+          "observed_sessions": 253
+        },
+        "2021": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2022": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2023": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2024": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2025": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2026": {
+          "coverage": 1.0,
+          "expected_sessions": 187,
+          "observed_sessions": 187
+        }
+      }
+    },
+    {
+      "eligible": true,
+      "first_date": "2015-01-02",
+      "last_date": "2026-09-30",
+      "longest_absent_us_session_run": 0,
+      "non_us_session_count": 0,
+      "reasons": [],
+      "retrieved_utc": "2026-10-29T04:21:21.077454+00:00",
+      "role": "target",
+      "row_count": 2953,
+      "sequence": 5,
+      "sessions_2026": 187,
+      "sha256": "8eb0084e3d13756b95f6f4f03739272952c2770d105f8f9efab4bfb03863f21b",
+      "source": "fresh_yfinance_download",
+      "ticker": "XLK",
+      "yearly_coverage": {
+        "2015": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2016": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2017": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2018": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2019": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2020": {
+          "coverage": 1.0,
+          "expected_sessions": 253,
+          "observed_sessions": 253
+        },
+        "2021": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2022": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2023": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2024": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2025": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2026": {
+          "coverage": 1.0,
+          "expected_sessions": 187,
+          "observed_sessions": 187
+        }
+      }
+    },
+    {
+      "eligible": true,
+      "first_date": "2015-01-02",
+      "last_date": "2026-09-30",
+      "longest_absent_us_session_run": 0,
+      "non_us_session_count": 0,
+      "reasons": [],
+      "retrieved_utc": "2026-10-29T04:21:21.415458+00:00",
+      "role": "target",
+      "row_count": 2953,
+      "sequence": 6,
+      "sessions_2026": 187,
+      "sha256": "6da2666cdd307199e6f37fa7701ea3b1073a1ae93b93cbae1fb679aaae9096a4",
+      "source": "fresh_yfinance_download",
+      "ticker": "XLP",
+      "yearly_coverage": {
+        "2015": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2016": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2017": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2018": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2019": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2020": {
+          "coverage": 1.0,
+          "expected_sessions": 253,
+          "observed_sessions": 253
+        },
+        "2021": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2022": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2023": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2024": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2025": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2026": {
+          "coverage": 1.0,
+          "expected_sessions": 187,
+          "observed_sessions": 187
+        }
+      }
+    },
+    {
+      "eligible": true,
+      "first_date": "2015-01-02",
+      "last_date": "2026-09-30",
+      "longest_absent_us_session_run": 0,
+      "non_us_session_count": 0,
+      "reasons": [],
+      "retrieved_utc": "2026-10-29T04:21:21.829685+00:00",
+      "role": "target",
+      "row_count": 2953,
+      "sequence": 7,
+      "sessions_2026": 187,
+      "sha256": "1975d2439fa9b968a103df9612bc0edb5c520be195c729f0006c5b4922befa7e",
+      "source": "fresh_yfinance_download",
+      "ticker": "XLU",
+      "yearly_coverage": {
+        "2015": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2016": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2017": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2018": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2019": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2020": {
+          "coverage": 1.0,
+          "expected_sessions": 253,
+          "observed_sessions": 253
+        },
+        "2021": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2022": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2023": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2024": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2025": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2026": {
+          "coverage": 1.0,
+          "expected_sessions": 187,
+          "observed_sessions": 187
+        }
+      }
+    },
+    {
+      "eligible": true,
+      "first_date": "2015-01-02",
+      "last_date": "2026-09-30",
+      "longest_absent_us_session_run": 0,
+      "non_us_session_count": 0,
+      "reasons": [],
+      "retrieved_utc": "2026-10-29T04:21:22.149387+00:00",
+      "role": "target",
+      "row_count": 2953,
+      "sequence": 8,
+      "sessions_2026": 187,
+      "sha256": "02c790a70b409e1dc5166f56fd0f229a93b79422bc0eeb907b6629fd366cf0e0",
+      "source": "fresh_yfinance_download",
+      "ticker": "XLV",
+      "yearly_coverage": {
+        "2015": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2016": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2017": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2018": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2019": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2020": {
+          "coverage": 1.0,
+          "expected_sessions": 253,
+          "observed_sessions": 253
+        },
+        "2021": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2022": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2023": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2024": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2025": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2026": {
+          "coverage": 1.0,
+          "expected_sessions": 187,
+          "observed_sessions": 187
+        }
+      }
+    },
+    {
+      "eligible": true,
+      "first_date": "2015-01-02",
+      "last_date": "2026-09-30",
+      "longest_absent_us_session_run": 0,
+      "non_us_session_count": 0,
+      "reasons": [],
+      "retrieved_utc": "2026-10-29T04:21:22.467887+00:00",
+      "role": "target",
+      "row_count": 2953,
+      "sequence": 9,
+      "sessions_2026": 187,
+      "sha256": "3e0b4ae84aee388129384e4514530b46b237eb144df6c78cbfe00e71dd32d9a0",
+      "source": "fresh_yfinance_download",
+      "ticker": "XLY",
+      "yearly_coverage": {
+        "2015": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2016": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2017": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2018": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2019": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2020": {
+          "coverage": 1.0,
+          "expected_sessions": 253,
+          "observed_sessions": 253
+        },
+        "2021": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2022": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2023": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2024": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2025": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2026": {
+          "coverage": 1.0,
+          "expected_sessions": 187,
+          "observed_sessions": 187
+        }
+      }
+    },
+    {
+      "eligible": true,
+      "first_date": "2015-01-02",
+      "last_date": "2026-09-30",
+      "longest_absent_us_session_run": 0,
+      "non_us_session_count": 0,
+      "reasons": [],
+      "retrieved_utc": "2026-10-29T04:21:22.819872+00:00",
+      "role": "target",
+      "row_count": 2953,
+      "sequence": 10,
+      "sessions_2026": 187,
+      "sha256": "e8631e01e681632e0bfd03f31a4aaf6d8ef4a0af6256ad5cdad76a2a7e8e4f6f",
+      "source": "fresh_yfinance_download",
+      "ticker": "SPY",
+      "yearly_coverage": {
+        "2015": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2016": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2017": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2018": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2019": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2020": {
+          "coverage": 1.0,
+          "expected_sessions": 253,
+          "observed_sessions": 253
+        },
+        "2021": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2022": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2023": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2024": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2025": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2026": {
+          "coverage": 1.0,
+          "expected_sessions": 187,
+          "observed_sessions": 187
+        }
+      }
+    },
+    {
+      "eligible": true,
+      "first_date": "2015-01-02",
+      "last_date": "2026-09-30",
+      "longest_absent_us_session_run": 0,
+      "non_us_session_count": 0,
+      "reasons": [],
+      "retrieved_utc": "2026-10-29T04:21:23.153159+00:00",
+      "role": "target",
+      "row_count": 2953,
+      "sequence": 11,
+      "sessions_2026": 187,
+      "sha256": "393d1639c11cec2980689197c25ef6c7dcecc3108fe443254f28547e3ae29162",
+      "source": "fresh_yfinance_download",
+      "ticker": "QQQ",
+      "yearly_coverage": {
+        "2015": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2016": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2017": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2018": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2019": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2020": {
+          "coverage": 1.0,
+          "expected_sessions": 253,
+          "observed_sessions": 253
+        },
+        "2021": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2022": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2023": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2024": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2025": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2026": {
+          "coverage": 1.0,
+          "expected_sessions": 187,
+          "observed_sessions": 187
+        }
+      }
+    },
+    {
+      "eligible": true,
+      "first_date": "2015-01-02",
+      "last_date": "2026-09-30",
+      "longest_absent_us_session_run": 0,
+      "non_us_session_count": 0,
+      "reasons": [],
+      "retrieved_utc": "2026-10-29T04:21:23.476352+00:00",
+      "role": "target",
+      "row_count": 2953,
+      "sequence": 12,
+      "sessions_2026": 187,
+      "sha256": "be6776d665090d6257df5059497cfe791f84eb170298bbaee9bf4fb8f48cf625",
+      "source": "fresh_yfinance_download",
+      "ticker": "IWM",
+      "yearly_coverage": {
+        "2015": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2016": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2017": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2018": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2019": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2020": {
+          "coverage": 1.0,
+          "expected_sessions": 253,
+          "observed_sessions": 253
+        },
+        "2021": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2022": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2023": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2024": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2025": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2026": {
+          "coverage": 1.0,
+          "expected_sessions": 187,
+          "observed_sessions": 187
+        }
+      }
+    },
+    {
+      "eligible": true,
+      "first_date": "2015-01-02",
+      "last_date": "2026-09-30",
+      "longest_absent_us_session_run": 0,
+      "non_us_session_count": 0,
+      "reasons": [],
+      "retrieved_utc": "2026-10-29T04:21:23.853893+00:00",
+      "role": "target",
+      "row_count": 2953,
+      "sequence": 13,
+      "sessions_2026": 187,
+      "sha256": "251cfcc82c85329d7524752284b2a0490476a5da078a5c0072489156af8521c5",
+      "source": "fresh_yfinance_download",
+      "ticker": "EFA",
+      "yearly_coverage": {
+        "2015": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2016": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2017": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2018": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2019": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2020": {
+          "coverage": 1.0,
+          "expected_sessions": 253,
+          "observed_sessions": 253
+        },
+        "2021": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2022": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2023": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2024": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2025": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2026": {
+          "coverage": 1.0,
+          "expected_sessions": 187,
+          "observed_sessions": 187
+        }
+      }
+    },
+    {
+      "eligible": true,
+      "first_date": "2015-01-02",
+      "last_date": "2026-09-30",
+      "longest_absent_us_session_run": 0,
+      "non_us_session_count": 0,
+      "reasons": [],
+      "retrieved_utc": "2026-10-29T04:21:24.160880+00:00",
+      "role": "target",
+      "row_count": 2953,
+      "sequence": 14,
+      "sessions_2026": 187,
+      "sha256": "2e61a296426949e08ca4186c8dae87e46f4bd470f8e6e9d5ea6f0301bf96ac6f",
+      "source": "fresh_yfinance_download",
+      "ticker": "EEM",
+      "yearly_coverage": {
+        "2015": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2016": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2017": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2018": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2019": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2020": {
+          "coverage": 1.0,
+          "expected_sessions": 253,
+          "observed_sessions": 253
+        },
+        "2021": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2022": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2023": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2024": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2025": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2026": {
+          "coverage": 1.0,
+          "expected_sessions": 187,
+          "observed_sessions": 187
+        }
+      }
+    },
+    {
+      "eligible": true,
+      "first_date": "2015-01-02",
+      "last_date": "2026-09-30",
+      "longest_absent_us_session_run": 0,
+      "non_us_session_count": 0,
+      "reasons": [],
+      "retrieved_utc": "2026-10-29T04:21:24.509223+00:00",
+      "role": "target",
+      "row_count": 2953,
+      "sequence": 15,
+      "sessions_2026": 187,
+      "sha256": "f0830710f8adbec45f0b5e18d6f5dd92bc80eb45ee266f838a0b211f55d3455d",
+      "source": "fresh_yfinance_download",
+      "ticker": "IBB",
+      "yearly_coverage": {
+        "2015": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2016": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2017": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2018": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2019": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2020": {
+          "coverage": 1.0,
+          "expected_sessions": 253,
+          "observed_sessions": 253
+        },
+        "2021": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2022": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2023": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2024": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2025": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2026": {
+          "coverage": 1.0,
+          "expected_sessions": 187,
+          "observed_sessions": 187
+        }
+      }
+    },
+    {
+      "eligible": true,
+      "first_date": "2015-01-02",
+      "last_date": "2026-09-30",
+      "longest_absent_us_session_run": 0,
+      "non_us_session_count": 0,
+      "reasons": [],
+      "retrieved_utc": "2026-10-29T04:21:24.854507+00:00",
+      "role": "target",
+      "row_count": 2953,
+      "sequence": 16,
+      "sessions_2026": 187,
+      "sha256": "0d518a65f721fd850ec158b2447af4aebb921ef9005955028d14e012d2e63350",
+      "source": "fresh_yfinance_download",
+      "ticker": "IYR",
+      "yearly_coverage": {
+        "2015": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2016": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2017": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2018": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2019": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2020": {
+          "coverage": 1.0,
+          "expected_sessions": 253,
+          "observed_sessions": 253
+        },
+        "2021": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2022": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2023": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2024": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2025": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2026": {
+          "coverage": 1.0,
+          "expected_sessions": 187,
+          "observed_sessions": 187
+        }
+      }
+    },
+    {
+      "eligible": true,
+      "first_date": "2015-01-02",
+      "last_date": "2026-09-30",
+      "longest_absent_us_session_run": 0,
+      "non_us_session_count": 0,
+      "reasons": [],
+      "retrieved_utc": "2026-10-29T04:21:25.170181+00:00",
+      "role": "peer",
+      "row_count": 2953,
+      "sequence": 17,
+      "sessions_2026": 187,
+      "sha256": "4f3b2b23c2b0be158d0c7667afdf79d67499a7e9c2c05241614b2c0fcbddc080",
+      "source": "fresh_yfinance_download",
+      "ticker": "EWC",
+      "yearly_coverage": {
+        "2015": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2016": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2017": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2018": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2019": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2020": {
+          "coverage": 1.0,
+          "expected_sessions": 253,
+          "observed_sessions": 253
+        },
+        "2021": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2022": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2023": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2024": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2025": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2026": {
+          "coverage": 1.0,
+          "expected_sessions": 187,
+          "observed_sessions": 187
+        }
+      }
+    },
+    {
+      "eligible": true,
+      "first_date": "2015-01-02",
+      "last_date": "2026-09-30",
+      "longest_absent_us_session_run": 0,
+      "non_us_session_count": 0,
+      "reasons": [],
+      "retrieved_utc": "2026-10-29T04:21:25.488066+00:00",
+      "role": "peer",
+      "row_count": 2953,
+      "sequence": 18,
+      "sessions_2026": 187,
+      "sha256": "d914539c8d292c29ded581e73d80d08faa8053dd0e30da807440e4b70173d99b",
+      "source": "fresh_yfinance_download",
+      "ticker": "EWZ",
+      "yearly_coverage": {
+        "2015": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2016": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2017": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2018": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2019": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2020": {
+          "coverage": 1.0,
+          "expected_sessions": 253,
+          "observed_sessions": 253
+        },
+        "2021": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2022": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2023": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2024": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2025": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2026": {
+          "coverage": 1.0,
+          "expected_sessions": 187,
+          "observed_sessions": 187
+        }
+      }
+    },
+    {
+      "eligible": true,
+      "first_date": "2015-01-02",
+      "last_date": "2026-09-30",
+      "longest_absent_us_session_run": 0,
+      "non_us_session_count": 0,
+      "reasons": [],
+      "retrieved_utc": "2026-10-29T04:21:25.788170+00:00",
+      "role": "peer",
+      "row_count": 2953,
+      "sequence": 19,
+      "sessions_2026": 187,
+      "sha256": "b3cf59545638b2e19c829d8da711be9c3c383004f8b5e3cc158aa9adb53d5cad",
+      "source": "fresh_yfinance_download",
+      "ticker": "ECH",
+      "yearly_coverage": {
+        "2015": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2016": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2017": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2018": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2019": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2020": {
+          "coverage": 1.0,
+          "expected_sessions": 253,
+          "observed_sessions": 253
+        },
+        "2021": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2022": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2023": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2024": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2025": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2026": {
+          "coverage": 1.0,
+          "expected_sessions": 187,
+          "observed_sessions": 187
+        }
+      }
+    },
+    {
+      "eligible": true,
+      "first_date": "2015-01-02",
+      "last_date": "2026-09-30",
+      "longest_absent_us_session_run": 0,
+      "non_us_session_count": 0,
+      "reasons": [],
+      "retrieved_utc": "2026-10-29T04:21:26.153080+00:00",
+      "role": "peer",
+      "row_count": 2953,
+      "sequence": 20,
+      "sessions_2026": 187,
+      "sha256": "803ed402fb0c6d7b2161f01abd0162fac685d95733f6a7704c534a6f7fa262c5",
+      "source": "fresh_yfinance_download",
+      "ticker": "EWW",
+      "yearly_coverage": {
+        "2015": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2016": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2017": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2018": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2019": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2020": {
+          "coverage": 1.0,
+          "expected_sessions": 253,
+          "observed_sessions": 253
+        },
+        "2021": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2022": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2023": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2024": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2025": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2026": {
+          "coverage": 1.0,
+          "expected_sessions": 187,
+          "observed_sessions": 187
+        }
+      }
+    },
+    {
+      "eligible": true,
+      "first_date": "2015-01-02",
+      "last_date": "2026-09-30",
+      "longest_absent_us_session_run": 0,
+      "non_us_session_count": 0,
+      "reasons": [],
+      "retrieved_utc": "2026-10-29T04:21:26.480592+00:00",
+      "role": "peer",
+      "row_count": 2953,
+      "sequence": 21,
+      "sessions_2026": 187,
+      "sha256": "128d3d3a4144e089d274e2a337e8ddccac69b6c27010ee9b9aff56ebf2b60761",
+      "source": "fresh_yfinance_download",
+      "ticker": "EWO",
+      "yearly_coverage": {
+        "2015": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2016": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2017": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2018": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2019": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2020": {
+          "coverage": 1.0,
+          "expected_sessions": 253,
+          "observed_sessions": 253
+        },
+        "2021": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2022": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2023": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2024": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2025": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2026": {
+          "coverage": 1.0,
+          "expected_sessions": 187,
+          "observed_sessions": 187
+        }
+      }
+    },
+    {
+      "eligible": true,
+      "first_date": "2015-01-02",
+      "last_date": "2026-09-30",
+      "longest_absent_us_session_run": 0,
+      "non_us_session_count": 0,
+      "reasons": [],
+      "retrieved_utc": "2026-10-29T04:21:26.866729+00:00",
+      "role": "peer",
+      "row_count": 2953,
+      "sequence": 22,
+      "sessions_2026": 187,
+      "sha256": "831e265e185d7915eab4e9f7ade342105904d86307c58d6513601a4ad3b98d85",
+      "source": "fresh_yfinance_download",
+      "ticker": "EWK",
+      "yearly_coverage": {
+        "2015": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2016": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2017": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2018": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2019": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2020": {
+          "coverage": 1.0,
+          "expected_sessions": 253,
+          "observed_sessions": 253
+        },
+        "2021": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2022": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2023": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2024": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2025": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2026": {
+          "coverage": 1.0,
+          "expected_sessions": 187,
+          "observed_sessions": 187
+        }
+      }
+    },
+    {
+      "eligible": true,
+      "first_date": "2015-01-02",
+      "last_date": "2026-09-30",
+      "longest_absent_us_session_run": 0,
+      "non_us_session_count": 0,
+      "reasons": [],
+      "retrieved_utc": "2026-10-29T04:21:27.176489+00:00",
+      "role": "peer",
+      "row_count": 2953,
+      "sequence": 23,
+      "sessions_2026": 187,
+      "sha256": "c4828619cf978f66069bca408c5f7fe9119e21b46cbe13dde6736910dadb3132",
+      "source": "fresh_yfinance_download",
+      "ticker": "EDEN",
+      "yearly_coverage": {
+        "2015": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2016": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2017": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2018": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2019": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2020": {
+          "coverage": 1.0,
+          "expected_sessions": 253,
+          "observed_sessions": 253
+        },
+        "2021": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2022": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2023": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2024": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2025": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2026": {
+          "coverage": 1.0,
+          "expected_sessions": 187,
+          "observed_sessions": 187
+        }
+      }
+    },
+    {
+      "eligible": true,
+      "first_date": "2015-01-02",
+      "last_date": "2026-09-30",
+      "longest_absent_us_session_run": 0,
+      "non_us_session_count": 0,
+      "reasons": [],
+      "retrieved_utc": "2026-10-29T04:21:27.504149+00:00",
+      "role": "peer",
+      "row_count": 2953,
+      "sequence": 24,
+      "sessions_2026": 187,
+      "sha256": "b8be716d506dd7092dd00bbcad01bf931904e09bc65eca44490eb660d94c9079",
+      "source": "fresh_yfinance_download",
+      "ticker": "EFNL",
+      "yearly_coverage": {
+        "2015": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2016": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2017": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2018": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2019": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2020": {
+          "coverage": 1.0,
+          "expected_sessions": 253,
+          "observed_sessions": 253
+        },
+        "2021": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2022": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2023": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2024": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2025": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2026": {
+          "coverage": 1.0,
+          "expected_sessions": 187,
+          "observed_sessions": 187
+        }
+      }
+    },
+    {
+      "eligible": true,
+      "first_date": "2015-01-02",
+      "last_date": "2026-09-30",
+      "longest_absent_us_session_run": 0,
+      "non_us_session_count": 0,
+      "reasons": [],
+      "retrieved_utc": "2026-10-29T04:21:27.877787+00:00",
+      "role": "peer",
+      "row_count": 2953,
+      "sequence": 25,
+      "sessions_2026": 187,
+      "sha256": "72b8c924ed1da1ade65a97581feb06211fe4ae9e50fd2d7aa4966663d8527d93",
+      "source": "fresh_yfinance_download",
+      "ticker": "EWQ",
+      "yearly_coverage": {
+        "2015": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2016": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2017": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2018": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2019": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2020": {
+          "coverage": 1.0,
+          "expected_sessions": 253,
+          "observed_sessions": 253
+        },
+        "2021": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2022": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2023": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2024": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2025": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2026": {
+          "coverage": 1.0,
+          "expected_sessions": 187,
+          "observed_sessions": 187
+        }
+      }
+    },
+    {
+      "eligible": true,
+      "first_date": "2015-01-02",
+      "last_date": "2026-09-30",
+      "longest_absent_us_session_run": 0,
+      "non_us_session_count": 0,
+      "reasons": [],
+      "retrieved_utc": "2026-10-29T04:21:28.239693+00:00",
+      "role": "peer",
+      "row_count": 2953,
+      "sequence": 26,
+      "sessions_2026": 187,
+      "sha256": "3271f07d01e9aaf29bdeca56eaf84e448edf1513a6e9d110131ade33bacfe102",
+      "source": "fresh_yfinance_download",
+      "ticker": "EWG",
+      "yearly_coverage": {
+        "2015": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2016": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2017": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2018": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2019": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2020": {
+          "coverage": 1.0,
+          "expected_sessions": 253,
+          "observed_sessions": 253
+        },
+        "2021": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2022": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2023": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2024": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2025": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2026": {
+          "coverage": 1.0,
+          "expected_sessions": 187,
+          "observed_sessions": 187
+        }
+      }
+    },
+    {
+      "eligible": true,
+      "first_date": "2015-01-02",
+      "last_date": "2026-09-30",
+      "longest_absent_us_session_run": 0,
+      "non_us_session_count": 0,
+      "reasons": [],
+      "retrieved_utc": "2026-10-29T04:21:28.548797+00:00",
+      "role": "peer",
+      "row_count": 2953,
+      "sequence": 27,
+      "sessions_2026": 187,
+      "sha256": "a8423fc577224fc5d5d01204d479b374b649b312f53f154d14828705a5f43d18",
+      "source": "fresh_yfinance_download",
+      "ticker": "EIRL",
+      "yearly_coverage": {
+        "2015": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2016": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2017": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2018": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2019": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2020": {
+          "coverage": 1.0,
+          "expected_sessions": 253,
+          "observed_sessions": 253
+        },
+        "2021": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2022": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2023": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2024": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2025": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2026": {
+          "coverage": 1.0,
+          "expected_sessions": 187,
+          "observed_sessions": 187
+        }
+      }
+    },
+    {
+      "eligible": true,
+      "first_date": "2015-01-02",
+      "last_date": "2026-09-30",
+      "longest_absent_us_session_run": 0,
+      "non_us_session_count": 0,
+      "reasons": [],
+      "retrieved_utc": "2026-10-29T04:21:28.878824+00:00",
+      "role": "peer",
+      "row_count": 2953,
+      "sequence": 28,
+      "sessions_2026": 187,
+      "sha256": "ce150007e0c4ac6dac9f70496116c194b74c2d72d2cd3fdf33395680a642038b",
+      "source": "fresh_yfinance_download",
+      "ticker": "EWI",
+      "yearly_coverage": {
+        "2015": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2016": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2017": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2018": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2019": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2020": {
+          "coverage": 1.0,
+          "expected_sessions": 253,
+          "observed_sessions": 253
+        },
+        "2021": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2022": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2023": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2024": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2025": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2026": {
+          "coverage": 1.0,
+          "expected_sessions": 187,
+          "observed_sessions": 187
+        }
+      }
+    },
+    {
+      "eligible": true,
+      "first_date": "2015-01-02",
+      "last_date": "2026-09-30",
+      "longest_absent_us_session_run": 0,
+      "non_us_session_count": 0,
+      "reasons": [],
+      "retrieved_utc": "2026-10-29T04:21:29.227088+00:00",
+      "role": "peer",
+      "row_count": 2953,
+      "sequence": 29,
+      "sessions_2026": 187,
+      "sha256": "9b37531d659076bc4d5160a28b577d1bd1f2c06160e129dae7c0f90ff1e57797",
+      "source": "fresh_yfinance_download",
+      "ticker": "EWN",
+      "yearly_coverage": {
+        "2015": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2016": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2017": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2018": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2019": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2020": {
+          "coverage": 1.0,
+          "expected_sessions": 253,
+          "observed_sessions": 253
+        },
+        "2021": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2022": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2023": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2024": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2025": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2026": {
+          "coverage": 1.0,
+          "expected_sessions": 187,
+          "observed_sessions": 187
+        }
+      }
+    },
+    {
+      "eligible": true,
+      "first_date": "2015-01-02",
+      "last_date": "2026-09-30",
+      "longest_absent_us_session_run": 0,
+      "non_us_session_count": 0,
+      "reasons": [],
+      "retrieved_utc": "2026-10-29T04:21:29.522048+00:00",
+      "role": "peer",
+      "row_count": 2953,
+      "sequence": 30,
+      "sessions_2026": 187,
+      "sha256": "ba913a870845136095c1a145a7ced1df7bb7b63f0c98e37bcac00b084a5df4ca",
+      "source": "fresh_yfinance_download",
+      "ticker": "ENOR",
+      "yearly_coverage": {
+        "2015": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2016": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2017": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2018": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2019": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2020": {
+          "coverage": 1.0,
+          "expected_sessions": 253,
+          "observed_sessions": 253
+        },
+        "2021": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2022": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2023": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2024": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2025": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2026": {
+          "coverage": 1.0,
+          "expected_sessions": 187,
+          "observed_sessions": 187
+        }
+      }
+    },
+    {
+      "eligible": true,
+      "first_date": "2015-01-02",
+      "last_date": "2026-09-30",
+      "longest_absent_us_session_run": 0,
+      "non_us_session_count": 0,
+      "reasons": [],
+      "retrieved_utc": "2026-10-29T04:21:29.872242+00:00",
+      "role": "peer",
+      "row_count": 2953,
+      "sequence": 31,
+      "sessions_2026": 187,
+      "sha256": "b3089210a34cf52b8539adc3b2ab3003a694b7307d3836d14135977c811c24bf",
+      "source": "fresh_yfinance_download",
+      "ticker": "EPOL",
+      "yearly_coverage": {
+        "2015": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2016": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2017": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2018": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2019": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2020": {
+          "coverage": 1.0,
+          "expected_sessions": 253,
+          "observed_sessions": 253
+        },
+        "2021": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2022": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2023": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2024": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2025": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2026": {
+          "coverage": 1.0,
+          "expected_sessions": 187,
+          "observed_sessions": 187
+        }
+      }
+    },
+    {
+      "eligible": true,
+      "first_date": "2015-01-02",
+      "last_date": "2026-09-30",
+      "longest_absent_us_session_run": 0,
+      "non_us_session_count": 0,
+      "reasons": [],
+      "retrieved_utc": "2026-10-29T04:21:30.202767+00:00",
+      "role": "peer",
+      "row_count": 2953,
+      "sequence": 32,
+      "sessions_2026": 187,
+      "sha256": "4f08bd22fb243b4fdf2e212cb2ccc411421f8eeeb6069078981e76433bff2fd0",
+      "source": "fresh_yfinance_download",
+      "ticker": "EWP",
+      "yearly_coverage": {
+        "2015": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2016": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2017": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2018": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2019": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2020": {
+          "coverage": 1.0,
+          "expected_sessions": 253,
+          "observed_sessions": 253
+        },
+        "2021": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2022": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2023": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2024": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2025": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2026": {
+          "coverage": 1.0,
+          "expected_sessions": 187,
+          "observed_sessions": 187
+        }
+      }
+    },
+    {
+      "eligible": true,
+      "first_date": "2015-01-02",
+      "last_date": "2026-09-30",
+      "longest_absent_us_session_run": 0,
+      "non_us_session_count": 0,
+      "reasons": [],
+      "retrieved_utc": "2026-10-29T04:21:30.518314+00:00",
+      "role": "peer",
+      "row_count": 2953,
+      "sequence": 33,
+      "sessions_2026": 187,
+      "sha256": "5d96885e2ffe1571fa5cb6eb1f0151b2dcd049274db1166b7f68d4b1536d55e8",
+      "source": "fresh_yfinance_download",
+      "ticker": "EWD",
+      "yearly_coverage": {
+        "2015": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2016": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2017": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2018": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2019": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2020": {
+          "coverage": 1.0,
+          "expected_sessions": 253,
+          "observed_sessions": 253
+        },
+        "2021": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2022": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2023": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2024": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2025": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2026": {
+          "coverage": 1.0,
+          "expected_sessions": 187,
+          "observed_sessions": 187
+        }
+      }
+    },
+    {
+      "eligible": true,
+      "first_date": "2015-01-02",
+      "last_date": "2026-09-30",
+      "longest_absent_us_session_run": 0,
+      "non_us_session_count": 0,
+      "reasons": [],
+      "retrieved_utc": "2026-10-29T04:21:30.860268+00:00",
+      "role": "peer",
+      "row_count": 2953,
+      "sequence": 34,
+      "sessions_2026": 187,
+      "sha256": "1eff6164b928c7e4674dc80a28f08aef127875c36f3a516cf533a68eb6e17933",
+      "source": "fresh_yfinance_download",
+      "ticker": "EWL",
+      "yearly_coverage": {
+        "2015": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2016": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2017": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2018": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2019": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2020": {
+          "coverage": 1.0,
+          "expected_sessions": 253,
+          "observed_sessions": 253
+        },
+        "2021": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2022": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2023": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2024": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2025": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2026": {
+          "coverage": 1.0,
+          "expected_sessions": 187,
+          "observed_sessions": 187
+        }
+      }
+    },
+    {
+      "eligible": true,
+      "first_date": "2015-01-02",
+      "last_date": "2026-09-30",
+      "longest_absent_us_session_run": 0,
+      "non_us_session_count": 0,
+      "reasons": [],
+      "retrieved_utc": "2026-10-29T04:21:31.235972+00:00",
+      "role": "peer",
+      "row_count": 2953,
+      "sequence": 35,
+      "sessions_2026": 187,
+      "sha256": "c651429ba7df61fb9740561e509de4101be4ce3de8c54261b8d7e1b80e481e87",
+      "source": "fresh_yfinance_download",
+      "ticker": "EWU",
+      "yearly_coverage": {
+        "2015": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2016": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2017": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2018": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2019": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2020": {
+          "coverage": 1.0,
+          "expected_sessions": 253,
+          "observed_sessions": 253
+        },
+        "2021": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2022": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2023": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2024": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2025": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2026": {
+          "coverage": 1.0,
+          "expected_sessions": 187,
+          "observed_sessions": 187
+        }
+      }
+    },
+    {
+      "eligible": true,
+      "first_date": "2015-01-02",
+      "last_date": "2026-09-30",
+      "longest_absent_us_session_run": 0,
+      "non_us_session_count": 0,
+      "reasons": [],
+      "retrieved_utc": "2026-10-29T04:21:31.561750+00:00",
+      "role": "peer",
+      "row_count": 2953,
+      "sequence": 36,
+      "sessions_2026": 187,
+      "sha256": "e24760b34fabac86f3ca803ce76f4196a35acdd63d78a362cd16c47e46762873",
+      "source": "fresh_yfinance_download",
+      "ticker": "EWA",
+      "yearly_coverage": {
+        "2015": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2016": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2017": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2018": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2019": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2020": {
+          "coverage": 1.0,
+          "expected_sessions": 253,
+          "observed_sessions": 253
+        },
+        "2021": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2022": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2023": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2024": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2025": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2026": {
+          "coverage": 1.0,
+          "expected_sessions": 187,
+          "observed_sessions": 187
+        }
+      }
+    },
+    {
+      "eligible": true,
+      "first_date": "2015-01-02",
+      "last_date": "2026-09-30",
+      "longest_absent_us_session_run": 0,
+      "non_us_session_count": 0,
+      "reasons": [],
+      "retrieved_utc": "2026-10-29T04:21:31.864217+00:00",
+      "role": "peer",
+      "row_count": 2953,
+      "sequence": 37,
+      "sessions_2026": 187,
+      "sha256": "3661eaa1fe3198b36f4a53bd1973ac2be1db9dec651346b2202bd70cadb76aed",
+      "source": "fresh_yfinance_download",
+      "ticker": "MCHI",
+      "yearly_coverage": {
+        "2015": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2016": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2017": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2018": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2019": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2020": {
+          "coverage": 1.0,
+          "expected_sessions": 253,
+          "observed_sessions": 253
+        },
+        "2021": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2022": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2023": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2024": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2025": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2026": {
+          "coverage": 1.0,
+          "expected_sessions": 187,
+          "observed_sessions": 187
+        }
+      }
+    },
+    {
+      "eligible": true,
+      "first_date": "2015-01-02",
+      "last_date": "2026-09-30",
+      "longest_absent_us_session_run": 0,
+      "non_us_session_count": 0,
+      "reasons": [],
+      "retrieved_utc": "2026-10-29T04:21:32.196114+00:00",
+      "role": "peer",
+      "row_count": 2953,
+      "sequence": 38,
+      "sessions_2026": 187,
+      "sha256": "9fc3e74497269019a373bd10192cf69739fdb02d46e4320b5f74e8b9cf19f519",
+      "source": "fresh_yfinance_download",
+      "ticker": "EWH",
+      "yearly_coverage": {
+        "2015": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2016": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2017": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2018": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2019": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2020": {
+          "coverage": 1.0,
+          "expected_sessions": 253,
+          "observed_sessions": 253
+        },
+        "2021": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2022": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2023": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2024": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2025": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2026": {
+          "coverage": 1.0,
+          "expected_sessions": 187,
+          "observed_sessions": 187
+        }
+      }
+    },
+    {
+      "eligible": true,
+      "first_date": "2015-01-02",
+      "last_date": "2026-09-30",
+      "longest_absent_us_session_run": 0,
+      "non_us_session_count": 0,
+      "reasons": [],
+      "retrieved_utc": "2026-10-29T04:21:32.520557+00:00",
+      "role": "peer",
+      "row_count": 2953,
+      "sequence": 39,
+      "sessions_2026": 187,
+      "sha256": "747c33f839aa9976f99748ad11cb71cbbe5382a08e6193b9c8eccbdf3b15f970",
+      "source": "fresh_yfinance_download",
+      "ticker": "INDA",
+      "yearly_coverage": {
+        "2015": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2016": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2017": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2018": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2019": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2020": {
+          "coverage": 1.0,
+          "expected_sessions": 253,
+          "observed_sessions": 253
+        },
+        "2021": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2022": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2023": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2024": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2025": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2026": {
+          "coverage": 1.0,
+          "expected_sessions": 187,
+          "observed_sessions": 187
+        }
+      }
+    },
+    {
+      "eligible": true,
+      "first_date": "2015-01-02",
+      "last_date": "2026-09-30",
+      "longest_absent_us_session_run": 0,
+      "non_us_session_count": 0,
+      "reasons": [],
+      "retrieved_utc": "2026-10-29T04:21:32.818589+00:00",
+      "role": "peer",
+      "row_count": 2953,
+      "sequence": 40,
+      "sessions_2026": 187,
+      "sha256": "fa672d9f4d4243bb8e609d5cf01659e1d9431ba0c09ab683615f649e2e24b2d6",
+      "source": "fresh_yfinance_download",
+      "ticker": "EIDO",
+      "yearly_coverage": {
+        "2015": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2016": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2017": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2018": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2019": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2020": {
+          "coverage": 1.0,
+          "expected_sessions": 253,
+          "observed_sessions": 253
+        },
+        "2021": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2022": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2023": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2024": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2025": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2026": {
+          "coverage": 1.0,
+          "expected_sessions": 187,
+          "observed_sessions": 187
+        }
+      }
+    },
+    {
+      "eligible": true,
+      "first_date": "2015-01-02",
+      "last_date": "2026-09-30",
+      "longest_absent_us_session_run": 0,
+      "non_us_session_count": 0,
+      "reasons": [],
+      "retrieved_utc": "2026-10-29T04:21:33.167581+00:00",
+      "role": "peer",
+      "row_count": 2953,
+      "sequence": 41,
+      "sessions_2026": 187,
+      "sha256": "c9c2e9b5c867651b09a7f82126c140c4ef7b556828882a514e2181784685f762",
+      "source": "fresh_yfinance_download",
+      "ticker": "EWJ",
+      "yearly_coverage": {
+        "2015": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2016": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2017": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2018": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2019": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2020": {
+          "coverage": 1.0,
+          "expected_sessions": 253,
+          "observed_sessions": 253
+        },
+        "2021": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2022": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2023": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2024": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2025": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2026": {
+          "coverage": 1.0,
+          "expected_sessions": 187,
+          "observed_sessions": 187
+        }
+      }
+    },
+    {
+      "eligible": true,
+      "first_date": "2015-01-02",
+      "last_date": "2026-09-30",
+      "longest_absent_us_session_run": 0,
+      "non_us_session_count": 0,
+      "reasons": [],
+      "retrieved_utc": "2026-10-29T04:21:33.629616+00:00",
+      "role": "peer",
+      "row_count": 2953,
+      "sequence": 42,
+      "sessions_2026": 187,
+      "sha256": "f93d152259b2d24cbf5ce06772414692b1412de3db8f57d7c8955c82ed049239",
+      "source": "fresh_yfinance_download",
+      "ticker": "EWM",
+      "yearly_coverage": {
+        "2015": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2016": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2017": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2018": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2019": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2020": {
+          "coverage": 1.0,
+          "expected_sessions": 253,
+          "observed_sessions": 253
+        },
+        "2021": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2022": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2023": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2024": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2025": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2026": {
+          "coverage": 1.0,
+          "expected_sessions": 187,
+          "observed_sessions": 187
+        }
+      }
+    },
+    {
+      "eligible": true,
+      "first_date": "2015-01-02",
+      "last_date": "2026-09-30",
+      "longest_absent_us_session_run": 0,
+      "non_us_session_count": 0,
+      "reasons": [],
+      "retrieved_utc": "2026-10-29T04:21:34.022744+00:00",
+      "role": "peer",
+      "row_count": 2953,
+      "sequence": 43,
+      "sessions_2026": 187,
+      "sha256": "13960888ae2fc2944a97fe35872cb55ece9a3589f273b6ad4569654da40129d3",
+      "source": "fresh_yfinance_download",
+      "ticker": "ENZL",
+      "yearly_coverage": {
+        "2015": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2016": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2017": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2018": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2019": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2020": {
+          "coverage": 1.0,
+          "expected_sessions": 253,
+          "observed_sessions": 253
+        },
+        "2021": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2022": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2023": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2024": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2025": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2026": {
+          "coverage": 1.0,
+          "expected_sessions": 187,
+          "observed_sessions": 187
+        }
+      }
+    },
+    {
+      "eligible": true,
+      "first_date": "2015-01-02",
+      "last_date": "2026-09-30",
+      "longest_absent_us_session_run": 0,
+      "non_us_session_count": 0,
+      "reasons": [],
+      "retrieved_utc": "2026-10-29T04:21:34.332821+00:00",
+      "role": "peer",
+      "row_count": 2953,
+      "sequence": 44,
+      "sessions_2026": 187,
+      "sha256": "ddf30d332a6c73d509f62d7eb3d214a9feafd9784c2d2bd4275b5e7e60977eaf",
+      "source": "fresh_yfinance_download",
+      "ticker": "EPHE",
+      "yearly_coverage": {
+        "2015": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2016": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2017": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2018": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2019": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2020": {
+          "coverage": 1.0,
+          "expected_sessions": 253,
+          "observed_sessions": 253
+        },
+        "2021": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2022": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2023": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2024": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2025": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2026": {
+          "coverage": 1.0,
+          "expected_sessions": 187,
+          "observed_sessions": 187
+        }
+      }
+    },
+    {
+      "eligible": true,
+      "first_date": "2015-01-02",
+      "last_date": "2026-09-30",
+      "longest_absent_us_session_run": 0,
+      "non_us_session_count": 0,
+      "reasons": [],
+      "retrieved_utc": "2026-10-29T04:21:34.721201+00:00",
+      "role": "peer",
+      "row_count": 2953,
+      "sequence": 45,
+      "sessions_2026": 187,
+      "sha256": "6de3f02b9a6092b374bf9ce55fe25c6efa49428a346994aba7b552ba204cb9b5",
+      "source": "fresh_yfinance_download",
+      "ticker": "EWS",
+      "yearly_coverage": {
+        "2015": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2016": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2017": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2018": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2019": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2020": {
+          "coverage": 1.0,
+          "expected_sessions": 253,
+          "observed_sessions": 253
+        },
+        "2021": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2022": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2023": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2024": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2025": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2026": {
+          "coverage": 1.0,
+          "expected_sessions": 187,
+          "observed_sessions": 187
+        }
+      }
+    },
+    {
+      "eligible": true,
+      "first_date": "2015-01-02",
+      "last_date": "2026-09-30",
+      "longest_absent_us_session_run": 0,
+      "non_us_session_count": 0,
+      "reasons": [],
+      "retrieved_utc": "2026-10-29T04:21:35.068578+00:00",
+      "role": "peer",
+      "row_count": 2953,
+      "sequence": 46,
+      "sessions_2026": 187,
+      "sha256": "fff6121c369142d109a88617386ac97f4a083975210a18752f2dc9dc8e1d65e1",
+      "source": "fresh_yfinance_download",
+      "ticker": "EWY",
+      "yearly_coverage": {
+        "2015": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2016": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2017": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2018": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2019": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2020": {
+          "coverage": 1.0,
+          "expected_sessions": 253,
+          "observed_sessions": 253
+        },
+        "2021": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2022": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2023": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2024": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2025": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2026": {
+          "coverage": 1.0,
+          "expected_sessions": 187,
+          "observed_sessions": 187
+        }
+      }
+    },
+    {
+      "eligible": true,
+      "first_date": "2015-01-02",
+      "last_date": "2026-09-30",
+      "longest_absent_us_session_run": 0,
+      "non_us_session_count": 0,
+      "reasons": [],
+      "retrieved_utc": "2026-10-29T04:21:35.409569+00:00",
+      "role": "peer",
+      "row_count": 2953,
+      "sequence": 47,
+      "sessions_2026": 187,
+      "sha256": "cbf7a046233df1b02d72cb73b3d9d455fcebd315be268244737bd1520c3664ee",
+      "source": "fresh_yfinance_download",
+      "ticker": "EWT",
+      "yearly_coverage": {
+        "2015": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2016": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2017": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2018": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2019": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2020": {
+          "coverage": 1.0,
+          "expected_sessions": 253,
+          "observed_sessions": 253
+        },
+        "2021": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2022": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2023": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2024": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2025": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2026": {
+          "coverage": 1.0,
+          "expected_sessions": 187,
+          "observed_sessions": 187
+        }
+      }
+    },
+    {
+      "eligible": true,
+      "first_date": "2015-01-02",
+      "last_date": "2026-09-30",
+      "longest_absent_us_session_run": 0,
+      "non_us_session_count": 0,
+      "reasons": [],
+      "retrieved_utc": "2026-10-29T04:21:35.769701+00:00",
+      "role": "peer",
+      "row_count": 2953,
+      "sequence": 48,
+      "sessions_2026": 187,
+      "sha256": "639724845941e40a00e40d6bd343cfd259b8723ffe64bda9ce960244d9672540",
+      "source": "fresh_yfinance_download",
+      "ticker": "THD",
+      "yearly_coverage": {
+        "2015": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2016": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2017": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2018": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2019": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2020": {
+          "coverage": 1.0,
+          "expected_sessions": 253,
+          "observed_sessions": 253
+        },
+        "2021": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2022": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2023": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2024": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2025": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2026": {
+          "coverage": 1.0,
+          "expected_sessions": 187,
+          "observed_sessions": 187
+        }
+      }
+    },
+    {
+      "eligible": true,
+      "first_date": "2015-01-02",
+      "last_date": "2026-09-30",
+      "longest_absent_us_session_run": 0,
+      "non_us_session_count": 0,
+      "reasons": [],
+      "retrieved_utc": "2026-10-29T04:21:36.146381+00:00",
+      "role": "peer",
+      "row_count": 2953,
+      "sequence": 49,
+      "sessions_2026": 187,
+      "sha256": "203e3fa82c94a52f3f1a279c806a42933af44c143e3c3b30c493dbfa747c5e12",
+      "source": "fresh_yfinance_download",
+      "ticker": "EIS",
+      "yearly_coverage": {
+        "2015": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2016": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2017": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2018": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2019": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2020": {
+          "coverage": 1.0,
+          "expected_sessions": 253,
+          "observed_sessions": 253
+        },
+        "2021": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2022": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2023": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2024": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2025": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2026": {
+          "coverage": 1.0,
+          "expected_sessions": 187,
+          "observed_sessions": 187
+        }
+      }
+    },
+    {
+      "eligible": true,
+      "first_date": "2015-01-02",
+      "last_date": "2026-09-30",
+      "longest_absent_us_session_run": 0,
+      "non_us_session_count": 0,
+      "reasons": [],
+      "retrieved_utc": "2026-10-29T04:21:36.462273+00:00",
+      "role": "peer",
+      "row_count": 2953,
+      "sequence": 50,
+      "sessions_2026": 187,
+      "sha256": "c0d8a2fbc29a501076b4f4f7d635554a5a1c9dfa1e287842cedf2a6318a27fbe",
+      "source": "fresh_yfinance_download",
+      "ticker": "EZA",
+      "yearly_coverage": {
+        "2015": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2016": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2017": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2018": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2019": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2020": {
+          "coverage": 1.0,
+          "expected_sessions": 253,
+          "observed_sessions": 253
+        },
+        "2021": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2022": {
+          "coverage": 1.0,
+          "expected_sessions": 251,
+          "observed_sessions": 251
+        },
+        "2023": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2024": {
+          "coverage": 1.0,
+          "expected_sessions": 252,
+          "observed_sessions": 252
+        },
+        "2025": {
+          "coverage": 1.0,
+          "expected_sessions": 250,
+          "observed_sessions": 250
+        },
+        "2026": {
+          "coverage": 1.0,
+          "expected_sessions": 187,
+          "observed_sessions": 187
+        }
+      }
+    }
+  ],
+  "eligible_peer_count": 34,
+  "eligible_target_count": 16,
+  "end_exclusive": "2026-10-01",
+  "environment": {
+    "exchange_calendars": "4.13.2",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "python": "3.13.16",
+    "yfinance": "1.7.0"
+  },
+  "excluded": [],
+  "peer_tickers": [
+    "EWC",
+    "EWZ",
+    "ECH",
+    "EWW",
+    "EWO",
+    "EWK",
+    "EDEN",
+    "EFNL",
+    "EWQ",
+    "EWG",
+    "EIRL",
+    "EWI",
+    "EWN",
+    "ENOR",
+    "EPOL",
+    "EWP",
+    "EWD",
+    "EWL",
+    "EWU",
+    "EWA",
+    "MCHI",
+    "EWH",
+    "INDA",
+    "EIDO",
+    "EWJ",
+    "EWM",
+    "ENZL",
+    "EPHE",
+    "EWS",
+    "EWY",
+    "EWT",
+    "THD",
+    "EIS",
+    "EZA"
+  ],
+  "provider": "Yahoo Finance via yfinance; auto_adjust=True; actions=False",
+  "start_inclusive": "2015-01-01",
+  "study": "cfri-heldout-assets-v1",
+  "target_tickers": [
+    "XLB",
+    "XLE",
+    "XLF",
+    "XLI",
+    "XLK",
+    "XLP",
+    "XLU",
+    "XLV",
+    "XLY",
+    "SPY",
+    "QQQ",
+    "IWM",
+    "EFA",
+    "EEM",
+    "IBB",
+    "IYR"
+  ],
+  "test_end": "2026-09-30"
+}

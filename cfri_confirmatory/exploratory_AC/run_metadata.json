@@ -1,0 +1,64 @@
+{
+ "code_id": "cfri-core-v2",
+ "folds": [
+  "A",
+  "B",
+  "C"
+ ],
+ "mask_types": [
+  "feature",
+  "row"
+ ],
+ "conditions_per_mask_type": 5508,
+ "environment": {
+  "python": "3.13.17",
+  "numpy": "2.1.3",
+  "pandas": "2.2.3",
+  "scikit-learn": "1.6.1",
+  "scipy": "1.18.1",
+  "cpu_workers": 2
+ },
+ "data": "Yahoo Finance daily OHLCV 2015-2025 (auto_adjust=True) of the exploratory ITRI2 run; files not redistributed",
+ "data_sha256": {
+  "ECH_2015_2025.csv": "096a130be5086673560ace4f895caafcacbc30e9bea2a6358cd528f103d390f4",
+  "EDEN_2015_2025.csv": "bfa369f020fcaad03a592a11ada0e3340d53a36348c0207372ac658a5bd8baef",
+  "EFNL_2015_2025.csv": "9f88847196f1aee276d97ec4381d8f332bfee6bf03dbb54cbbbfca2b200c28d1",
+  "EIDO_2015_2025.csv": "78b67fb1954747eecaa3899acbe7abb82faec33fe245294365cdde27124fa678",
+  "EIRL_2015_2025.csv": "d48b8e938df14e3dfa72e00cbb60934ae1b1663e29732c3cd380d55362e69b27",
+  "EIS_2015_2025.csv": "aa6af17e5e01a6c26869ae10b1a5caec18a8aaf4182aeb88f25d288a7476af5f",
+  "ENOR_2015_2025.csv": "5a6c7710fab625c2ed9bb78acbdae45e69f57e0a8b7d6fd88321c256d64c17fb",
+  "ENZL_2015_2025.csv": "3083401071096b6831ec3f7b13636e64134735b4160beabb39cef7ff5dde6276",
+  "EPHE_2015_2025.csv": "882febbfcb851b5fbdc1b60f40ac3da4f8f04b46a7d3f4608e25e8ea0a0ea1f5",
+  "EPOL_2015_2025.csv": "312d139c647abe7172c7a3f80fe4b94ade6c5aa777530934ec96811bbb622285",
+  "EWA_2015_2025.csv": "f0a9200c32c733a93b1f40bb7a17de3f8688fd97f75428e5ab3bc64b2f8b9f19",
+  "EWC_2015_2025.csv": "f209a7ead8bebe9d1d88a266fa3922ceb247f63927f2ed931ae7945c952499ae",
+  "EWD_2015_2025.csv": "f6cb7767b7a26bbfb6fec8ffc8b6d4b84664531ad1952a589acd87b09be26298",
+  "EWG_2015_2025.csv": "a640974139af511e020822d742959cde2294458900696adf8b29c6971744c552",
+  "EWH_2015_2025.csv": "d58407cb81b4bc253e3f527788256a5743a5fc40aadaa49b48ef23d799a323f6",
+  "EWI_2015_2025.csv": "07c37a477d181398c4a0dd9df8c7148cceed9a24efc2fdb163e8c052963be622",
+  "EWJ_2015_2025.csv": "abc2251a68d07b43576302ac2accc5ec2a8ff94f7f3dbe4a7dedfaf3aeb48468",
+  "EWK_2015_2025.csv": "3013bc941dbe4f9ada6f0ab4f9eef2430437bfb3d6d4c314c90f38d079771bc8",
+  "EWL_2015_2025.csv": "054f95914e5b071a2160de98044b44c1bc0e5e4cb12c70fb05e483e1fbca37b8",
+  "EWM_2015_2025.csv": "080b42935e62926ff6c77e36ec95f117cedee699afb77abc8560dbab0d3b4899",
+  "EWN_2015_2025.csv": "50aee1185493f3d415b62737943ca3b9b0b8266e05c2cd1a7f6b46a043ba333d",
+  "EWO_2015_2025.csv": "9669e930b43c1f2c0e955c1b964bc9ed09fc4d7e3a665f40ac41f40a823f2a9f",
+  "EWP_2015_2025.csv": "51a5d01d48f980ec71c863194605dcab33a6f728892f93ef41c4bf87321f4334",
+  "EWQ_2015_2025.csv": "172e4b1a6b37dd7992e7fbde6d5fec43b325f8a0f9656e71f5ae0917e47b2718",
+  "EWS_2015_2025.csv": "a168fb7afa8c2f548e1ec019aeb2d5133ace21a74c3081f68851a84046c3a71b",
+  "EWT_2015_2025.csv": "4ebad1e5bba4bd83d6b014cdd4a7867d391262f4c3e9b15fefe8cfdf6726ba71",
+  "EWU_2015_2025.csv": "070e1c803464c123413b3a9862c69d42a1f53cd5f34c3a56626bc1585855b1a0",
+  "EWW_2015_2025.csv": "143f083280ef11d2f8bfbe62232ac27d3b1473b8e5370e3bb1910c9169ba4b98",
+  "EWY_2015_2025.csv": "a5c3311ac11019451e12afe35797ae579e51d72a4b13c510ea0a796714d68d7d",
+  "EWZ_2015_2025.csv": "9e090b3a6b078be9a6a1bab36ce65f2881840f56cdbd3070699771685375f692",
+  "EZA_2015_2025.csv": "a0e1d68e770200413b3b56b5ffeb0c1314e187e4520b08c090a7de7d64463001",
+  "INDA_2015_2025.csv": "ea6bf7c51d1d91abd35ef6dc965e2c1aeda73d72913ea4e44528459a6dc43354",
+  "MCHI_2015_2025.csv": "78d837cae568afdabe824605a56677ad66a1fe28beade4ffdce96e3d18adc6f1",
+  "THD_2015_2025.csv": "27c0f2b9e26b6941fd3ee0c01446c4cfbd78c46fa8d76f428e12810ee18e39d6"
+ },
+ "reproduction_check": {
+  "rows_matched": 165240,
+  "rows_archived": 165240,
+  "max_abs_diff": 5.622169396701793e-13
+ },
+ "saits": "archived amendment v2 results: external_validation/results/exploratory/windownorm_saits_feature_rows.csv.gz"
+}

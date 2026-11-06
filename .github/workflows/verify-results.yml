@@ -24,11 +24,20 @@ jobs:
       - name: Install verification dependencies
         run: python -m pip install numpy==2.1.3 pandas==2.2.3 scipy==1.16.3
 
-      - name: Development ablation (Tables 5-8)
+      - name: Development ablation (Table 1, Supplementary Tables S5 to S7)
         run: python scripts/verify_published_results.py
 
-      - name: Development comparators (Tables 9-10)
+      - name: Development comparators (Supplementary Tables S8 and S9)
         run: python development_comparators/verify_comparator_numbers.py
 
-      - name: External validation (Sections 5.8-5.10, Tables 11-21)
+      - name: External validation (Sections 5.3 to 5.5, Tables 2 and 3, Supplementary Tables S10 to S18)
         run: python external_validation/code/verify_reported_numbers.py
+
+      - name: CFRI folds A to C and fold D (Sections 4.5 and 5.6, Table 4)
+        run: python cfri_confirmatory/analysis/verify_reported_numbers.py
+
+      - name: CFRI fold D supplementary tables (Supplementary Tables S19 to S22)
+        run: python cfri_confirmatory/analysis/fold_D_supplement.py --out "$RUNNER_TEMP/supplement_fold_D"
+
+      - name: CFRI new-asset holdout (Sections 4.6 and 5.7, Supplementary Tables S23 to S25)
+        run: python cfri_holdout_v1/analysis/verify_reported_numbers.py

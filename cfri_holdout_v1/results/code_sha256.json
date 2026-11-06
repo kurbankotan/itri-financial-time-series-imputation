@@ -1,0 +1,14 @@
+{
+  "PROTOCOL.md": "d781f88340f143c8bb4a0c9236688850e67bfedc2c527ed02792fc748315659e",
+  "build_notebook.py": "0f1dc574fc3c3d15cfe42c8e59f7a4dff68fa92ad44bfc494b9dcf7c8b63faea",
+  "cfri_core.py": "ef33fa6f0fdcb8a79b0f364f9ff00b7820a707e8323f6f03bac554de5d657721",
+  "confirm_saits.py": "86b592b9d380cc0fd694d35f8031f8dac16a130a5bfed022c56b180ca27f07a4",
+  "holdout_analyze.py": "b7ea21d205f1feb5d736c6d07270fe8c68cccfb6d94c4c1c918475a507360f69",
+  "holdout_data.py": "a6eb43994bab4a0f026d3e90e8be6d1d2b71e7d3a7197fb975b1f9c88cf071d6",
+  "holdout_run.py": "2be9052a3d9ee89528f150e10de61845388e166d937f7587f7a4bec99fa82d24",
+  "holdout_saits.py": "e08542beb465073d9cf3301e8fcecb08da893bf1b5037674d1b938209c396597",
+  "requirements-colab.txt": "d312825ad33315396e59f3c8fecd42deda414e05785f55f3a9ed1decdcb428eb",
+  "upstream/cfri_core.py": "ef33fa6f0fdcb8a79b0f364f9ff00b7820a707e8323f6f03bac554de5d657721",
+  "v2_peer.py": "826c1dd7bb4fcf0d081daaf6169f91d26ad674dfbbb910124e6e85c629875c66",
+  "v2_price.py": "19b98bdfa83a9dcc36412f0e8539101741a8a47994a63e85c3e9ea33ad44016e"
+}
